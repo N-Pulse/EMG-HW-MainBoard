@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32WBA63CI")(type "KiCad")(uri "${KIPRJMOD}/CAD models/SMT32WBA63/2025-03-12_09-22-16.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS7953SBDBT")(type "KiCad")(uri "${KIPRJMOD}/CAD models/ADS7953SBDBT/2025-03-12_09-53-19.kicad_sym")(options "")(descr ""))
+  (lib (name "PMEG4030AEXE-QX")(type "KiCad")(uri "${KIPRJMOD}/CAD models/PMEG4030AEXE-QX/PMEG4030AEXE-QX.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP2210-I_SO")(type "KiCad")(uri "${KIPRJMOD}/CAD models/MCP2210/KiCad/MCP2210-I_SO.kicad_sym")(options "")(descr ""))
+  (lib (name "THS4031IDGNR")(type "KiCad")(uri "${KIPRJMOD}/CAD models/THS4031IDGNR/THS4031IDGNR.kicad_sym")(options "")(descr ""))
+)
