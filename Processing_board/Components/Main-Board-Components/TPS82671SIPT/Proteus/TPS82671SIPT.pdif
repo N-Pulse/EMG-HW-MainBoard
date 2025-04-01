@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPS82671SIPT"
+   (description "600mA Fully Integrated, Low Noise Step-Down Converter Module in MicroSiP&#153; Package")
+   (family "ANA")
+   (package "BGA8C80P3X3_290X230X100")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/ds/symlink/tps82671.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "595-TPS82671SIPT")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS82671SIPT?qs=NiBvnJE4bX2ACa61pPv%252B3g%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TPS82671SIPT")
+   (gate
+    (symbol "TPS82671SIPT")
+    (pin "VOUT" A1 PS)
+    (pin "VIN_1" A2 PS)
+    (pin "VIN_2" A3 PS)
+    (pin "MODE" B1 PS)
+    (pin "EN" B2 PS)
+    (pin "GND_1" C1 PS)
+    (pin "GND_2" C2 PS)
+    (pin "GND_3" C3 PS)
+   )
+  )
+  (symbol "TPS82671SIPT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "BGA8C80P3X3_290X230X100"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.475 2.175)
+      (pt 2.475 2.175)
+      (pt 2.475 -2.175)
+      (pt -2.475 -2.175)
+      (pt -2.475 2.175))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.45 1.15)
+      (pt 1.45 1.15)
+      (pt 1.45 -1.15)
+      (pt -1.45 -1.15)
+      (pt -1.45 1.15))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.45 0.562)
+      (pt -0.862 1.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1 1.295)
+      (pt 1.495 1.295)
+      (pt 1.495 -1.295)
+      (pt -1.495 -1.295)
+      (pt -1.495 0.8)
+      (pt -1 1.295))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -1.395 1.295) (pt -1.595 1.295)
+     )
+    )
+   )
+   (leg A1 (pt -1 0.8) (padstack 0))
+   (leg A2 (pt 0 0.8) (padstack 0))
+   (leg A3 (pt 1 0.8) (padstack 0))
+   (leg B1 (pt -1 0) (padstack 0))
+   (leg B2 (pt 0 0) (padstack 0))
+   (leg C1 (pt -1 -0.8) (padstack 0))
+   (leg C2 (pt 0 -0.8) (padstack 0))
+   (leg C3 (pt 1 -0.8) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (round 0.29))
+   )
+   (model "TPS82671SIPT.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

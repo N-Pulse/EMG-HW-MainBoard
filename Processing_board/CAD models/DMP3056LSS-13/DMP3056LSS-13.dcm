@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP3056LSS-13
+D MOSFET P Channel 30V 7.1A 2.1V @ 250uA 45m @ 6A,10V SOP-8_150mil RoHS
+K
+F https://www.diodes.com//assets/Datasheets/ds31421.pdf
+$ENDCMP
+#
+#End Doc Library

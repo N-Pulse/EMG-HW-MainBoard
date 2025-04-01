@@ -1,0 +1,9 @@
+Manufacturer=Silicon Labs
+PartNumber=EFR32BG13P732F512GM48-D
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=49
+Version=1.1
+Released=2022-05-30 04:59:12
+Downloaded=2024-12-06 14:43:03
+3D=Y

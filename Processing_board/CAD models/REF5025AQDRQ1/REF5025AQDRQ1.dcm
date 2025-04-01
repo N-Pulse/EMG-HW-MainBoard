@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP REF5025AQDRQ1
+D Automotive Low Noise, Very Low Drift, Precision 2.5V Series Voltage Reference
+K
+F http://www.ti.com/lit/gpn/ref5025a-q1
+$ENDCMP
+#
+#End Doc Library

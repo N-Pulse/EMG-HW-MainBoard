@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=LD1117D33TR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=5.1
+Released=2015-04-16 09:48:08
+Downloaded=2025-01-05 23:54:48
+3D=Y

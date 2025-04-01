@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LD1117DT18TR
+D LD1117DT18TR, Low Dropout Voltage Regulator, 1.3A, 1.8 V +/-1%, 3-Pin DPAK
+K
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf
+$ENDCMP
+#
+#End Doc Library

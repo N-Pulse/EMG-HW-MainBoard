@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP THS4031IDGNR
-D 100-MHz Low Noise Voltage-Feedback Amplifier
-K
-F http://www.ti.com/lit/gpn/ths4031
-$ENDCMP
-#
-#End Doc Library
