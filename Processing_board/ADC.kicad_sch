@@ -1874,16 +1874,6 @@
 		)
 		(uuid "6e2a9a8d-11ef-4577-aef8-310714a5699b")
 	)
-	(text "If using SPI protocol, does SDI = MOSI, SDO = MISO\nand SCLCK = SCK ?"
-		(exclude_from_sim no)
-		(at 249.174 61.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "78f1783c-6fe9-48de-8c64-39f1e8cfc515")
-	)
 	(text "Multiplexer output MXO is connected to ADC input AINP through \nOpAmp buffer to decrease source impedance going in the ADC\n\n\n\n"
 		(exclude_from_sim no)
 		(at 63.246 145.034 0)
@@ -1893,6 +1883,16 @@
 			)
 		)
 		(uuid "a486131c-9cd1-41bc-8d86-4c4b735a8f5d")
+	)
+	(text "Pull-up\n"
+		(exclude_from_sim no)
+		(at 232.41 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f90fc7e4-2a5b-4b0b-81cd-ea9612f4e30c")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -1955,6 +1955,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "275f4ab5-dda9-4daf-8a5a-fc853370bf42")
+	)
+	(junction
+		(at 234.95 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2deb0756-0289-4f21-aec2-4576cee412ea")
 	)
 	(junction
 		(at 203.2 76.2)
@@ -2330,7 +2336,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 71.12) (xy 214.63 71.12)
+			(xy 212.09 71.12) (xy 234.95 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2530,6 +2536,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 62.23) (xy 234.95 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d20e1b8-c502-4a86-bf1f-42277b97d3f0")
+	)
+	(wire
+		(pts
 			(xy 196.85 71.12) (xy 203.2 71.12)
 		)
 		(stroke
@@ -2680,13 +2696,23 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 69.85) (xy 212.09 71.12)
+			(xy 212.09 71.12) (xy 212.09 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be6116e3-368c-46d6-88fd-040a13fbff5e")
+	)
+	(wire
+		(pts
+			(xy 234.95 71.12) (xy 246.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf8307db-78b2-4b32-8399-de89e87718d1")
 	)
 	(wire
 		(pts
@@ -2747,6 +2773,16 @@
 			(type default)
 		)
 		(uuid "c5ff6fcd-6922-4847-a517-3c1a133ced58")
+	)
+	(wire
+		(pts
+			(xy 234.95 49.53) (xy 234.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8701618-6dc3-4b5d-b9bf-b91bbf6c3f3d")
 	)
 	(wire
 		(pts
@@ -2916,6 +2952,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 234.95 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76f7acfb-b6ac-423b-9696-4a1e1443d932")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 234.95 42.4324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3219,7 +3277,7 @@
 	)
 	(hierarchical_label "*CS"
 		(shape input)
-		(at 214.63 71.12 0)
+		(at 246.38 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4692,6 +4750,76 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/81fcf985-d5d5-4bbe-9990-9ad1ad945323"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e473abad-99e2-42ad-b8a8-48ccaaebf297")
+		(property "Reference" "R7"
+			(at 237.49 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 237.49 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.172 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 234.95 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c984d45-d9c9-48fa-8659-9224929ff9c2")
+		)
+		(pin "2"
+			(uuid "61301fa5-cb30-4e63-9a34-4c6b558a721b")
+		)
+		(instances
+			(project ""
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/81fcf985-d5d5-4bbe-9990-9ad1ad945323"
+					(reference "R7")
 					(unit 1)
 				)
 			)
