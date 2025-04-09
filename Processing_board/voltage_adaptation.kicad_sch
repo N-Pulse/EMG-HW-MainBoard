@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "d8cf24b8-016f-4a6d-a855-7f69c814f6a6")
 	(paper "A4")
+	(title_block
+		(company "N-Pulse")
+	)
 	(lib_symbols
 		(symbol "Custom_Symbol_Library_Npulse:LD1117DT18TR"
 			(exclude_from_sim no)

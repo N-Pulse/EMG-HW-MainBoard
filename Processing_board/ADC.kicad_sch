@@ -4,6 +4,9 @@
 	(generator_version "9.0")
 	(uuid "5e7b78fd-a9a9-4b33-9320-7e52266e080b")
 	(paper "A4")
+	(title_block
+		(company "N-Pulse")
+	)
 	(lib_symbols
 		(symbol "2025-03-12_09-53-19:ADS7953SBDBT"
 			(pin_names
