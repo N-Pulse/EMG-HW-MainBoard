@@ -1,13 +1,13 @@
-PCBNEW-LibModule-V1  2025-03-12 13:00:25
+PCBNEW-LibModule-V1  2025-04-09 13:56:10
 # encoding utf-8
 Units mm
 $INDEX
 SOIC127P1030X265-20N
 $EndINDEX
 $MODULE SOIC127P1030X265-20N
-Po 0 0 0 15 67d18569 00000000 ~~
+Po 0 0 0 15 67f66e6a 00000000 ~~
 Li SOIC127P1030X265-20N
-Cd 20-Lead Plastic Small Outline (SO) - Wide, 7.50 mm Body [SOIC]
+Cd (SO)20-Lead(SOIC)
 Kw Integrated Circuit
 Sc 0
 At SMD

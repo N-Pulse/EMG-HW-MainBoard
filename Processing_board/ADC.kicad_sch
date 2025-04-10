@@ -1849,7 +1849,7 @@
 	)
 	(text "AGND, BDGND, AINM, REFM pins have to be\nconnected to the same GND (copper fill area)\n"
 		(exclude_from_sim no)
-		(at 159.258 35.306 0)
+		(at 155.194 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1867,6 +1867,16 @@
 		)
 		(uuid "0dd3495f-22e3-4cfd-b299-fd44e1bd922a")
 	)
+	(text "MXO"
+		(exclude_from_sim no)
+		(at 29.21 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1e344048-b029-49c0-a0dd-65b022632f8a")
+	)
 	(text "Provide precise 2.5V reference \nvoltage to the ADC (can be fed with \nany voltage > 2.7V)\n"
 		(exclude_from_sim no)
 		(at 74.93 19.05 0)
@@ -1876,6 +1886,16 @@
 			)
 		)
 		(uuid "6e2a9a8d-11ef-4577-aef8-310714a5699b")
+	)
+	(text "GPIO3 can also also be used for\n power-down function"
+		(exclude_from_sim no)
+		(at 136.906 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9929afcc-0828-47ac-ac4e-ac023caeaf30")
 	)
 	(text "Multiplexer output MXO is connected to ADC input AINP through \nOpAmp buffer to decrease source impedance going in the ADC\n\n\n\n"
 		(exclude_from_sim no)
@@ -1887,6 +1907,26 @@
 		)
 		(uuid "a486131c-9cd1-41bc-8d86-4c4b735a8f5d")
 	)
+	(text "GPIO2 and GPIO3 are connected to PB1 and PB2\nof STM32 (not crucial, for debug or else)"
+		(exclude_from_sim no)
+		(at 181.102 23.876 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be48c91f-6130-45ba-8cf6-a97ac99f7394")
+	)
+	(text "AINP"
+		(exclude_from_sim no)
+		(at 79.756 100.838 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d9d1f4ef-9aaf-4b70-bcf8-e195d2de2c96")
+	)
 	(text "Pull-up\n"
 		(exclude_from_sim no)
 		(at 232.41 58.42 90)
@@ -1896,6 +1936,16 @@
 			)
 		)
 		(uuid "f90fc7e4-2a5b-4b0b-81cd-ea9612f4e30c")
+	)
+	(text "GPIO2 pin can also control ADC\nrange (0-5V or 0-2.5V)"
+		(exclude_from_sim no)
+		(at 140.208 28.956 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f9d4697e-c259-4f8c-90a3-3390581f5d6e")
 	)
 	(text_box ""
 		(exclude_from_sim no)
@@ -1978,12 +2028,6 @@
 		(uuid "87123f4c-2a4d-4040-8fb7-852a6468c684")
 	)
 	(junction
-		(at 31.75 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c215c009-1f58-4010-a171-cfcdc87d6872")
-	)
-	(junction
 		(at 45.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2001,11 +2045,13 @@
 		(color 0 0 0 0)
 		(uuid "f61a291f-cdb5-44e1-abac-ce61727225da")
 	)
-	(junction
-		(at 186.69 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe01888c-3062-4389-a099-d2d6e2b3a318")
+	(no_connect
+		(at 186.69 53.34)
+		(uuid "267ec09c-e719-4384-b716-eac6ca03e8e0")
+	)
+	(no_connect
+		(at 186.69 55.88)
+		(uuid "827e180d-f7ea-48a4-bce0-490680a097c7")
 	)
 	(wire
 		(pts
@@ -2099,13 +2145,23 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 99.06) (xy 31.75 99.06)
+			(xy 120.65 31.75) (xy 120.65 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "207b9429-65dd-484c-a8dd-acf2517e42b4")
+		(uuid "1a65635c-364d-4db4-820a-d0181a695b16")
+	)
+	(wire
+		(pts
+			(xy 116.84 21.59) (xy 116.84 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2755738e-bbd2-41f0-8577-c3e81175b1c3")
 	)
 	(wire
 		(pts
@@ -2146,16 +2202,6 @@
 			(type default)
 		)
 		(uuid "383c461b-4525-4fa7-8a4e-3550e4ac9506")
-	)
-	(wire
-		(pts
-			(xy 186.69 73.66) (xy 194.31 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3996c743-e862-41db-9d6f-96bccde9ced0")
 	)
 	(wire
 		(pts
@@ -2246,6 +2292,16 @@
 			(type default)
 		)
 		(uuid "596f7175-0464-4eef-a2e2-79ab22dd6230")
+	)
+	(wire
+		(pts
+			(xy 116.84 55.88) (xy 120.65 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f9a9ba-7ab7-410c-b13d-0d132acd5966")
 	)
 	(wire
 		(pts
@@ -2456,6 +2512,16 @@
 			(type default)
 		)
 		(uuid "827b8489-787c-4997-aecf-e14c9680487a")
+	)
+	(wire
+		(pts
+			(xy 186.69 73.66) (xy 194.31 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d83cb7-c769-438c-b65d-32d2d50d674a")
 	)
 	(wire
 		(pts
@@ -2756,16 +2822,6 @@
 			(type default)
 		)
 		(uuid "c07e71e9-96a2-4c8b-a25c-c6f6cb4a9582")
-	)
-	(wire
-		(pts
-			(xy 184.15 73.66) (xy 186.69 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ad465d-2391-4186-a72a-64491bfdf569")
 	)
 	(wire
 		(pts
@@ -3113,6 +3169,17 @@
 		)
 		(uuid "15d13ced-fd42-4455-afc9-3e6e81fa49a6")
 	)
+	(hierarchical_label "GPIO3"
+		(shape input)
+		(at 116.84 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22ee6552-68f0-404e-ad85-053727b3519a")
+	)
 	(hierarchical_label "CH7"
 		(shape input)
 		(at 193.04 96.52 0)
@@ -3201,6 +3268,17 @@
 		)
 		(uuid "8c3b9a29-0601-4468-b5fd-16ba7e454a2c")
 	)
+	(hierarchical_label "GPIO2"
+		(shape input)
+		(at 120.65 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93456c04-4f26-4e84-8d4f-7088d5e1ebac")
+	)
 	(hierarchical_label "CH1"
 		(shape input)
 		(at 193.04 81.28 0)
@@ -3255,17 +3333,6 @@
 			(justify left)
 		)
 		(uuid "c923beee-ee88-4da6-87e4-7ba62fca8779")
-	)
-	(hierarchical_label "MXO"
-		(shape input)
-		(at 30.48 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d3878000-acea-4ecf-a4fd-4cbb1682a5e1")
 	)
 	(hierarchical_label "CH8"
 		(shape input)
