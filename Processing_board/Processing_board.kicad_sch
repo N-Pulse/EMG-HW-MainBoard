@@ -5067,15 +5067,15 @@
 		)
 		(uuid "ff113b68-ddd8-4052-bf92-9e6d5b52163e")
 	)
-	(label "Battery 5V"
-		(at 60.96 176.53 0)
+	(label "Power"
+		(at 63.5 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "03bbc70f-7937-4365-8399-43994dfbc947")
+		(uuid "009ccebb-7df1-4dc9-8679-b473aaa15f2d")
 	)
 	(label "SWD_NRST"
 		(at 195.58 45.72 90)
@@ -7710,16 +7710,6 @@
 				(justify right)
 			)
 		)
-		(pin "Battery 5V" input
-			(at 88.9 176.53 180)
-			(uuid "b4875681-9796-414f-8aa7-2b765933ee12")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "VBUS" input
 			(at 88.9 172.72 180)
 			(uuid "cfe7c7ab-cea0-4e4f-b116-eb5b9cad410d")
@@ -7738,6 +7728,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Bat{slash}PowerLine" input
+			(at 88.9 176.53 180)
+			(uuid "731b9ba5-6082-47aa-870f-a7f5abeffccc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
