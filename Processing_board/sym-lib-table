@@ -10,4 +10,8 @@
   (lib (name "CX2016DB32000D0FLJCC")(type "KiCad")(uri "${KIPRJMOD}/CAD models/CX2016DB32000D0FLJCC/2025-03-26_16-22-02.kicad_sym")(options "")(descr ""))
   (lib (name "DMP3056LSS-13")(type "KiCad")(uri "${KIPRJMOD}/CAD models/DMP3056LSS-13/DMP3056LSS-13.kicad_sym")(options "")(descr ""))
   (lib (name "MCP2200-I_SO")(type "KiCad")(uri "${KIPRJMOD}/CAD models/MCP2200-I_SO/MCP2200-I_SO.kicad_sym")(options "")(descr ""))
+  (lib (name "DLF162500LT-5028A1")(type "KiCad")(uri "${KIPRJMOD}/CAD models/DLF162500LT-5028A1/DLF162500LT-5028A1.kicad_sym")(options "")(descr ""))
+  (lib (name "CONMHF1-SMD-G-T")(type "KiCad")(uri "${KIPRJMOD}/CAD models/CONMHF1-SMD-G-T/CONMHF1-SMD-G-T.kicad_sym")(options "")(descr ""))
+  (lib (name "BGS13SN8E6327XTSA1")(type "KiCad")(uri "${KIPRJMOD}/CAD models/BGS13SN8E6327XTSA1/BGS13SN8E6327XTSA1.kicad_sym")(options "")(descr ""))
+  (lib (name "AMCA31-2R450G-S1F-T3")(type "KiCad")(uri "${KIPRJMOD}/CAD models/AMCA31-2R450G-S1F-T3/AMCA31-2R450G-S1F-T3.kicad_sym")(options "")(descr ""))
 )
