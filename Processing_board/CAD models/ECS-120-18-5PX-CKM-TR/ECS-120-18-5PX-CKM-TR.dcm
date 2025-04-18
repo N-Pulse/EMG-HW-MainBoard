@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-120-18-5PX-CKM-TR
+D Crystals CRYSTAL 12MHZ 18pF +/-10ppm +/-10ppm -20 C 70C
+K
+F https://www.digikey.com/en/products/detail/ecs-inc/ECS-120-18-5PX-TR/827395
+$ENDCMP
+#
+#End Doc Library

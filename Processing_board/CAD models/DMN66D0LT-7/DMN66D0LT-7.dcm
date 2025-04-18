@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMN66D0LT-7
+D Trans MOSFET N-CH 60V 0.115A 3-Pin SOT-523 T/R
+K
+F https://www.diodes.com//assets/Datasheets/DMN66D0LT.pdf
+$ENDCMP
+#
+#End Doc Library
