@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 5.599999,
+          "width": 5.599999
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -58,9 +58,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.3,
+          "gap": 0.15,
           "via_gap": 0.5,
-          "width": 0.3
+          "width": 0.2
         }
       ],
       "drc_exclusions": [],
@@ -127,7 +127,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.13,
+        "min_clearance": 0.15,
         "min_connection": 0.1,
         "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
@@ -141,7 +141,7 @@
         "min_text_thickness": 0.05,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -193,11 +193,12 @@
       "track_widths": [
         0.0,
         0.15,
+        0.2,
+        0.25,
         0.3,
+        0.3208,
         0.5,
-        0.8,
-        2.0,
-        3.6
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -233,6 +234,18 @@
         {
           "diameter": 0.4,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.65,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -502,32 +515,38 @@
       },
       {
         "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "pcb_color": "rgb(100, 102, 100)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PERIPH",
+        "pcb_color": "rgb(70, 255, 38)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgb(255, 2, 1)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "RF",
+        "pcb_color": "rgb(255, 245, 8)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SMPS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "RF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
         "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "pcb_color": "rgb(37, 82, 255)",
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -546,12 +565,12 @@
         "pattern": "+*"
       },
       {
-        "netclass": "Default",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
         "netclass": "PERIPH",
-        "pattern": "/SWD"
+        "pattern": "/SW*"
       },
       {
         "netclass": "PERIPH",
@@ -560,6 +579,14 @@
       {
         "netclass": "PWR",
         "pattern": "POWER"
+      },
+      {
+        "netclass": "PERIPH",
+        "pattern": "/SPI*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/SMPS*"
       }
     ]
   },

@@ -15,7 +15,6 @@
   (lib (name "REF5025AQDRQ1")(type "KiCad")(uri "${KIPRJMOD}/CAD models/REF5025AQDRQ1")(options "")(descr ""))
   (lib (name "SMT32WBA63")(type "KiCad")(uri "${KIPRJMOD}/CAD models/SMT32WBA63")(options "")(descr ""))
   (lib (name "TL3305BF100QG")(type "KiCad")(uri "${KIPRJMOD}/CAD models/TL3305BF100QG")(options "")(descr ""))
-  (lib (name "LD1117D33TR")(type "KiCad")(uri "${KIPRJMOD}/CAD models/LD1117D33TR")(options "")(descr ""))
   (lib (name "ECS-120-18-5PX-CKM-TR")(type "KiCad")(uri "${KIPRJMOD}/CAD models/ECS-120-18-5PX-CKM-TR")(options "")(descr ""))
   (lib (name "USB4215_03_A")(type "KiCad")(uri "${KIPRJMOD}/CAD models/USB4215_03_A")(options "")(descr ""))
   (lib (name "LD1117DT18TR")(type "KiCad")(uri "${KIPRJMOD}/CAD models/LD1117DT18TR")(options "")(descr ""))

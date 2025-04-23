@@ -2688,6 +2688,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a718012e-1e80-4d67-ab45-284ca5f7624b")
+	)
+	(wire
+		(pts
 			(xy 87.63 104.14) (xy 87.63 116.84)
 		)
 		(stroke
@@ -2715,6 +2725,16 @@
 			(type default)
 		)
 		(uuid "a8975f55-d0f7-4b20-9292-4a8f0cb866fd")
+	)
+	(wire
+		(pts
+			(xy 86.36 104.14) (xy 87.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad2d5525-cc61-45fc-9f72-79bb96baa723")
 	)
 	(wire
 		(pts
@@ -2808,16 +2828,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 101.6) (xy 120.65 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce91aff4-dd76-47b0-9c7c-505b29a08eed")
-	)
-	(wire
-		(pts
 			(xy 212.09 123.19) (xy 212.09 120.65)
 		)
 		(stroke
@@ -2908,6 +2918,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 99.06) (xy 87.63 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea48b04c-fbfd-45ec-bd53-364eec8bbdfb")
+	)
+	(wire
+		(pts
 			(xy 194.31 101.6) (xy 194.31 114.3)
 		)
 		(stroke
@@ -2955,26 +2975,6 @@
 			(type default)
 		)
 		(uuid "fa129289-6794-49d8-b95e-ca13d866e8cc")
-	)
-	(wire
-		(pts
-			(xy 87.63 99.06) (xy 86.36 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa12db01-9075-4849-ae3b-14bd3859cb2b")
-	)
-	(wire
-		(pts
-			(xy 87.63 104.14) (xy 86.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcecfd5d-0e79-4901-ac4d-0cec4fd959e8")
 	)
 	(hierarchical_label "Bat{slash}PowerLine"
 		(shape input)
@@ -3871,7 +3871,7 @@
 		(dnp no)
 		(uuid "98f0d714-1986-4b18-a719-c59696cfa96e")
 		(property "Reference" "J10"
-			(at 77.724 101.6 0)
+			(at 77.978 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 75.692 97.79 0)
+			(at 77.724 96.774 0)
 			(effects
 				(font
 					(size 1.016 1.016)
