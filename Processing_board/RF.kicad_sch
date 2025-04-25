@@ -2136,6 +2136,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 120.65) (xy 229.87 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3505fa40-74c0-4f24-ba25-705cb429f652")
+	)
+	(wire
+		(pts
 			(xy 214.63 20.32) (xy 219.71 20.32)
 		)
 		(stroke
@@ -2143,16 +2153,6 @@
 			(type default)
 		)
 		(uuid "35eb6445-3424-40a1-b306-af3b5c7ee93c")
-	)
-	(wire
-		(pts
-			(xy 191.77 120.65) (xy 219.71 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3637034d-ccc5-46be-9796-dd1501d58b4f")
 	)
 	(wire
 		(pts
@@ -2166,13 +2166,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 120.65) (xy 229.87 120.65)
+			(xy 191.77 120.65) (xy 219.71 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d952685-adfc-4f4a-a1ec-d29c9af5ac75")
+		(uuid "3fdac15b-e868-4d4f-8e9d-68418822631a")
 	)
 	(wire
 		(pts
@@ -2812,7 +2812,6 @@
 	(symbol
 		(lib_id "Device:Antenna_Chip")
 		(at 222.25 118.11 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2820,7 +2819,7 @@
 		(dnp no)
 		(uuid "49a61d5f-0cbd-4bef-8b00-2b4061eb7913")
 		(property "Reference" "AE2"
-			(at 217.17 114.2999 0)
+			(at 227.33 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2828,7 @@
 			)
 		)
 		(property "Value" "PCB_antenna"
-			(at 217.17 116.8399 0)
+			(at 227.33 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +2837,7 @@
 			)
 		)
 		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
-			(at 224.79 113.665 0)
+			(at 219.71 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +2846,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 113.665 0)
+			(at 219.71 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
