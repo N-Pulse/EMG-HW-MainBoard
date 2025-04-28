@@ -18,4 +18,5 @@
   (lib (name "USB4215-03-A_REVA")(type "KiCad")(uri "${KIPRJMOD}/CAD models/USB4215_03_A/USB4215-03-A_REVA.kicad_sym")(options "")(descr ""))
   (lib (name "OG_USB4215-03-A_REVA")(type "KiCad")(uri "${KIPRJMOD}/CAD models/USB4215_03_A/OG_USB4215-03-A_REVA.kicad_sym")(options "")(descr ""))
   (lib (name "LD1117DT18TR")(type "KiCad")(uri "${KIPRJMOD}/CAD models/LD1117DT18TR/LD1117DT18TR.kicad_sym")(options "")(descr ""))
+  (lib (name "PN5260")(type "KiCad")(uri "${KIPRJMOD}/CAD models/PN5260/PN5260.kicad_sym")(options "")(descr ""))
 )
