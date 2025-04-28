@@ -1459,130 +1459,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -1810,7 +1686,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "The PCB antenna *SHOULD* have 50 Ohm \n-> no need for matching network\nBut I put a 0R resistor and 2 \"no populate\" places\njust in case"
+	(text "The PCB antenna *SHOULD* have 50 Ohm and the right frequency\n-> no need for matching network\nBut I put two \"don't populate\" elements \nfor frequency or impedance tuning just in case"
 		(exclude_from_sim no)
 		(at 181.864 144.526 0)
 		(effects
@@ -1949,6 +1825,12 @@
 		(uuid "4d4911d8-a041-4b3b-891d-7e7858e9006f")
 	)
 	(junction
+		(at 172.72 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59e9bd29-fff8-429e-8c5f-be13e8d04981")
+	)
+	(junction
 		(at 54.61 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1959,12 +1841,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82e7a9a0-3eff-48c4-b2f7-8e8cacbc4a24")
-	)
-	(junction
-		(at 172.72 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2e7a780-2308-4e57-928c-a305d498ee8a")
 	)
 	(junction
 		(at 214.63 30.48)
@@ -2126,13 +2002,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 120.65) (xy 172.72 120.65)
+			(xy 172.72 120.65) (xy 191.77 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34215667-5d25-43b1-8122-f9dda703734f")
+		(uuid "33787e1e-8550-434e-bcab-32cd6e29316c")
 	)
 	(wire
 		(pts
@@ -2246,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 120.65) (xy 179.07 120.65)
+			(xy 172.72 120.65) (xy 167.64 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2333,16 +2209,6 @@
 			(type default)
 		)
 		(uuid "7b92395a-4dba-48df-8d99-385b47807ae5")
-	)
-	(wire
-		(pts
-			(xy 186.69 120.65) (xy 191.77 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d3363b1-4bbe-4891-bf22-7dfa05ad9668")
 	)
 	(wire
 		(pts
@@ -4389,73 +4255,6 @@
 			(project ""
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/d5efe196-3030-4740-bb6d-2e5f674a846e"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 182.88 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4dfb74b-1e69-4fd1-8921-aeaf202d6846")
-		(property "Reference" "R17"
-			(at 182.88 114.808 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 182.88 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.88 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 182.88 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01050db7-36cf-4872-b5da-e5ae97f66cf3")
-		)
-		(pin "1"
-			(uuid "ada4961c-eee8-4883-a63b-480d798dee88")
-		)
-		(instances
-			(project ""
-				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/d5efe196-3030-4740-bb6d-2e5f674a846e"
-					(reference "R17")
 					(unit 1)
 				)
 			)
