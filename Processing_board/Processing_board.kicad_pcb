@@ -2150,6 +2150,17 @@
 			(uuid "4351468a-925f-4cf9-850a-eda84506d179")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CAD models/PN5260/PN5260.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -5006,6 +5017,17 @@
 			(uuid "29f2b11d-9113-48d6-a531-b9d921d6fcb3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CAD models/PN5260/PN5260.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -21332,6 +21354,17 @@
 			(uuid "79c4bdfa-461b-476f-9fab-8e3ab53c3c53")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CAD models/PN5260/PN5260.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -23085,6 +23118,17 @@
 			(uuid "5a464f8f-13e4-4c36-81d1-b5600e6ff0ec")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CAD models/PN5260/PN5260.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -25601,6 +25645,17 @@
 			(uuid "dd494e2b-41d5-4803-9e31-0296efe3a627")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CAD models/PN5260/PN5260.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -30431,6 +30486,17 @@
 			(uuid "af16b5f8-7da1-40a0-807c-4d099b4b6959")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/CAD models/PN5260/PN5260.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -33391,6 +33457,17 @@
 		(layer "F.SilkS")
 		(uuid "2071dfc5-d81c-40d9-9fe1-680e2e4df0fc")
 	)
+	(gr_rect
+		(start 78.905 116.54)
+		(end 85.5 126.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "44b672b0-c682-45ee-8e4e-e2609ea4ea7a")
+	)
 	(gr_line
 		(start 153.4225 104)
 		(end 173.85 104)
@@ -33400,6 +33477,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "4e7c4ee3-4f46-49e0-8138-49a0f647d089")
+	)
+	(gr_rect
+		(start 79 101.265)
+		(end 86 107.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "5210f69e-0e57-4509-a621-89e7d64b1200")
 	)
 	(gr_line
 		(start 131.75 74.25)
@@ -33574,6 +33662,18 @@
 		(layer "Edge.Cuts")
 		(uuid "fa4f3a3e-b5ac-4f77-b53d-a8a6086a2975")
 	)
+	(gr_text "PWR"
+		(at 85.25 113.75 90)
+		(layer "F.SilkS")
+		(uuid "03e940e6-9a67-4b36-bc9e-2ee9b1536c24")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "32MHz"
 		(at 165.75 100.25 0)
 		(layer "F.SilkS")
@@ -33611,7 +33711,7 @@
 		)
 	)
 	(gr_text "1.8V"
-		(at 81.065 101.345 0)
+		(at 85.25 105 90)
 		(layer "F.SilkS")
 		(uuid "23b3da10-fd61-4cc3-92e3-3d49bf0723b8")
 		(effects
@@ -33626,6 +33726,18 @@
 		(at 98.5 68 0)
 		(layer "F.SilkS")
 		(uuid "28ce87fa-6f08-4cd8-b442-f304ddbb3531")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RX"
+		(at 80.5 126.25 90)
+		(layer "F.SilkS")
+		(uuid "3667105c-dc82-4b12-903d-b96996aa6fce")
 		(effects
 			(font
 				(size 1 1)
@@ -33694,6 +33806,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND"
+		(at 80.75 115.5 90)
+		(layer "F.SilkS")
+		(uuid "5f7d1261-8ec1-4a4a-aa69-90db0f081045")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 80.5 122 90)
+		(layer "F.SilkS")
+		(uuid "6b4fb855-6fe3-489a-a6c7-5ba25b722c50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "RX\n"
 		(at 122.25 72.5 0)
 		(layer "F.SilkS")
@@ -33718,8 +33854,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TX"
+		(at 85.25 123.5 90)
+		(layer "F.SilkS")
+		(uuid "75f45ba5-4d6e-4e3c-ad0f-ccd7fc75b65d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PWR_IN"
-		(at 80.25 110.25 0)
+		(at 80 109.75 0)
 		(layer "F.SilkS")
 		(uuid "7854a62f-3341-46de-9b08-0fbc9e9b5e28")
 		(effects
@@ -33746,6 +33894,18 @@
 		(at 129.5 98.25 0)
 		(layer "F.SilkS")
 		(uuid "7eaac0cf-3e72-4d0f-b004-a86af3a56275")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 80.5 106.995 90)
+		(layer "F.SilkS")
+		(uuid "7f64cae2-98c3-4ebd-bc8e-004f1fd6c019")
 		(effects
 			(font
 				(size 1 1)
@@ -33826,6 +33986,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "EMG"
+		(at 81 101.25 0)
+		(layer "F.SilkS")
+		(uuid "ad17a935-6c80-4a93-9e8e-0bf28ef39a31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "5V-"
 		(at 108.5 106 0)
 		(layer "F.SilkS")
@@ -33875,7 +34047,7 @@
 		)
 	)
 	(gr_text "UART2"
-		(at 80.25 126.75 0)
+		(at 80.25 127.5 0)
 		(layer "F.SilkS")
 		(uuid "bdfb7ce3-26c4-467b-85ee-d26259e60094")
 		(effects
@@ -33992,6 +34164,25 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text_box ""
+		(start 79 110)
+		(end 85.75 116.25)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "F.SilkS")
+		(uuid "09a63176-cc71-41df-8f0a-bf0d3ed2cecc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 	)
 	(segment
