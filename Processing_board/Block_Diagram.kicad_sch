@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2fd9317c-a47b-40dc-ab04-e2e606f33b25")
+	(paper "A4")
+	(title_block
+		(company "N-Pulse")
+	)
+	(lib_symbols)
+)

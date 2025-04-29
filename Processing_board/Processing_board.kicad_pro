@@ -879,24 +879,32 @@
       "Root"
     ],
     [
-      "db67a34e-d5f8-42fb-9749-5806aa4cd127",
-      "USB-C circuit"
+      "0389c75e-6563-4d32-85e4-af80c6b19c55",
+      "ADC1"
     ],
     [
-      "467cc10f-45f4-4d5b-8f14-57680fdb58b5",
-      "Power switching and voltage adaptation"
+      "d56d27a8-a098-46eb-88da-d245b6796204",
+      "Power switching and voltage adaptation1"
     ],
     [
-      "dd373a49-14d9-4e57-878b-300a3ee89b4f",
-      "STM32_power_supply_scheme"
+      "fcdff86e-c52c-44dc-a5ef-2802822a65d8",
+      "Schematic"
     ],
     [
-      "d5efe196-3030-4740-bb6d-2e5f674a846e",
-      "RF circuitry & antennas"
+      "3a34b90a-01a9-4daa-a357-0f04458d950a",
+      "Block_Diagram"
     ],
     [
-      "81fcf985-d5d5-4bbe-9990-9ad1ad945323",
-      "ADC"
+      "f8bd7a4f-f23e-48c7-be1c-b16c32a48936",
+      "RF circuitry & antennas1"
+    ],
+    [
+      "0ca319d9-8cc4-41ef-8b55-d3768d65a7b2",
+      "STM32_power_supply_scheme1"
+    ],
+    [
+      "b9cf1dc4-4e6f-489b-a641-8fb243e80057",
+      "USB-C circuit1"
     ]
   ],
   "text_variables": {}
