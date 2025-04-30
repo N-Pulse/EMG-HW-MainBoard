@@ -1779,7 +1779,7 @@
 		(dnp no)
 		(uuid "266b8ace-d06c-4197-8e3e-f376da651f5b")
 		(property "Reference" "C47"
-			(at 119.634 39.624 90)
+			(at 117.602 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 117.094 39.624 90)
+			(at 119.888 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
