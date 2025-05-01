@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP EFR32BG13P732F512GM48-D
-D SILICON LABS - EFR32BG13P732F512GM48-D - Microcontroller Application Specific, EFR32BG Series, ARM Cortex-M4, 32bit, 512KB, 40MHz, QFN-48
-K
-F https://www.silabs.com/documents/public/data-sheets/efr32bg13-datasheet.pdf
-$ENDCMP
-#
-#End Doc Library

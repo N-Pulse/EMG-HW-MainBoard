@@ -3374,16 +3374,6 @@
 		)
 		(uuid "1ee789ae-b29d-454a-822e-2f3b8b7e8b73")
 	)
-	(wire
-		(pts
-			(xy 109.22 72.39) (xy 109.22 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23bedd85-f98f-4ec5-8edb-26fadc855de0")
-	)
 	(polyline
 		(pts
 			(xy 165.1 107.315) (xy 124.46 107.315)
@@ -3924,6 +3914,16 @@
 		)
 		(uuid "a4e47895-8bb6-45ba-877d-fd6a9b13b84d")
 	)
+	(wire
+		(pts
+			(xy 109.22 67.31) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c9c733-8c9a-4a2a-9163-7558d254be71")
+	)
 	(polyline
 		(pts
 			(xy 124.46 85.725) (xy 165.1 85.725)
@@ -4408,6 +4408,41 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Diodes-Incorporated/DMN66D0LT-7?qs=ptj1V1atRApcnSIo%2FSL0QQ%3D%3D"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Incorporated"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 135.89 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "190c69db-a468-4b7b-a252-a31a24fb4604")
 		)
@@ -4580,7 +4615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "Global Connector Technology"
+		(property "MANUFACTURER" "CGT"
 			(at -15.24 103.632 0)
 			(effects
 				(font
@@ -4607,6 +4642,41 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/GCT/USB4215-03-A?qs=IKkN%2F947nfBipec8wvDabA%3D%3D"
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB4215-03-A"
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" ""
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "déjà" "1"
+			(at 36.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4781,6 +4851,41 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/ECS/ECS-120-18-5PX-CKM-TR?qs=7MVldsJ5UaxGiQ3V9H8iDw%3D%3D"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ECS"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 148.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5036,6 +5141,40 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Keystone-Electronics/5260?qs=W%2FMpXkg%252BdQ5ZyD03UfNp6A%3D%3D"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5260"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "déjà" ""
+			(at 204.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8ffc2d7-c83e-4250-a5d9-e8601d1ca523")
 		)
@@ -5221,6 +5360,41 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Microchip-Technology/MCP2200-I-SO?qs=kI7nsUnms46fN8L9VZlJCA%3D%3D"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Microchip Technology"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "18"
 			(uuid "e93b90dd-5c73-48ba-9ae3-c631be769715")
 		)
@@ -5342,6 +5516,50 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/KYOCERA-AVX/08055C270KAT2A?qs=ykEKLGTiBcy%2FccVg1dGO5g%3D%3D"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C270KAT2A"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5500,6 +5718,41 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Diodes-Incorporated/DMN66D0LT-7?qs=ptj1V1atRApcnSIo%2FSL0QQ%3D%3D"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Incorporated"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 116.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6485a27c-6b17-4d2f-93e6-553bb4bc845f")
 		)
@@ -5637,6 +5890,50 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/KYOCERA-AVX/08055C270KAT2A?qs=ykEKLGTiBcy%2FccVg1dGO5g%3D%3D"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KYOCERA AVX"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "08055C270KAT2A"
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 138.43 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a478c7d0-c3ec-4918-ba8d-a87c90019c54")
 		)
@@ -5702,6 +5999,50 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/YAGEO/AC0402JR-075K1L?qs=ygRr%2Ftkhtev1AbJgasJMAQ%3D%3D"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402JR-075K1L"
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 78.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5837,6 +6178,50 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/YAGEO/AC0402JR-075K1L?qs=ygRr%2Ftkhtev1AbJgasJMAQ%3D%3D"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "YAGEO"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0402JR-075K1L"
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 78.74 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1ffcd89-7edb-4081-be8f-bec69849346e")
 		)
@@ -5970,6 +6355,50 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/KOA-Speer/RK73B1ETTPD101J?qs=7ZBenkSduJQ3N2lLjwh2jA%3D%3D"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KOA Speer"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73B1ETTPD101J"
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 214.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "042ad955-3273-4873-beed-14aabdeb7045")
 		)
@@ -5987,7 +6416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 109.22 68.58 0)
+		(at 109.22 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5995,7 +6424,7 @@
 		(dnp no)
 		(uuid "922daa20-feb5-41bb-9148-dc04bacbaa97")
 		(property "Reference" "R17"
-			(at 104.648 67.31 0)
+			(at 104.648 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6433,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 104.648 69.596 0)
+			(at 104.648 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +6442,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 109.22 68.58 0)
+			(at 109.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +6451,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 68.58 0)
+			(at 109.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6031,12 +6460,56 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 109.22 68.58 0)
+			(at 109.22 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/560112110020?qs=mELouGlnn3fA8%252B%2F79%2FueqA%3D%3D"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Wurth Elektronik"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110020 "
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6115,6 +6588,50 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Inolux/IN-S42BT5G?qs=mAH9sUMRCttW6d2tLN392Q%3D%3D"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S42BT5G "
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 204.47 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "612831c7-5345-4878-88fb-448b1c2f8560")
 		)
@@ -6185,6 +6702,50 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Murata-Electronics/GRT155R71A224KE01D?qs=qkDYIeTQ%252BEkMujM%252BGJvzUg%3D%3D"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRT155R71A224KE01D"
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 158.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "13acf5e1-a8bd-466b-9cff-c2df2e7a44d2")
 		)
@@ -6253,6 +6814,50 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/560112110020?qs=mELouGlnn3fA8%252B%2F79%2FueqA%3D%3D"
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Wurth Elektronik"
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110020 "
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6341,7 +6946,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "ae08036f-38d1-44a9-924d-234cc2f1ed0b")
 		(property "Reference" "TP11"
@@ -6387,6 +6992,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Panier" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "déjà" ""
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6572,6 +7201,40 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Keystone-Electronics/5260?qs=W%2FMpXkg%252BdQ5ZyD03UfNp6A%3D%3D"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5260"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "déjà" ""
+			(at 213.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "99bd78fb-8b74-4801-9717-cf60cf9400f5")
 		)
@@ -6645,6 +7308,50 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Inolux/IN-S42BT5G?qs=mAH9sUMRCttW6d2tLN392Q%3D%3D"
+			(at 204.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 204.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Inolux"
+			(at 204.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "IN-S42BT5G "
+			(at 204.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 204.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5006b72-d40a-4969-b6ce-81319fb9037d")
 		)
@@ -6713,6 +7420,50 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/KEMET/C0402C473K8RACAUTO7411?qs=sSYV1F9c5cEF%2FA7Et64KMA%3D%3D"
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0402C473K8RACAUTO7411"
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 185.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6851,6 +7602,50 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/560112110020?qs=mELouGlnn3fA8%252B%2F79%2FueqA%3D%3D"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Wurth Elektronik"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110020 "
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7d8e0f4c-1713-40cf-9b97-34091b91da60")
 		)
@@ -6985,6 +7780,50 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/560112110020?qs=mELouGlnn3fA8%252B%2F79%2FueqA%3D%3D"
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Wurth Elektronik"
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110020 "
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 232.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

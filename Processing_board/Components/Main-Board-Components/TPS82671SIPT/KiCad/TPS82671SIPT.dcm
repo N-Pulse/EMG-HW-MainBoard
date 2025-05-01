@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP TPS82671SIPT
-D 600mA Fully Integrated, Low Noise Step-Down Converter Module in MicroSiP&#153; Package
-K
-F http://www.ti.com/lit/ds/symlink/tps82671.pdf
-$ENDCMP
-#
-#End Doc Library

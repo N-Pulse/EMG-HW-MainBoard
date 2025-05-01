@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=TLV8542DR
-PartCategory=Integrated Circuit
-PackageCategory=Small Outline Packages
-PinCount=8
-Version=2.1
-Released=2021-02-22 04:08:37
-Downloaded=2024-11-25 15:05:02
-3D=Y

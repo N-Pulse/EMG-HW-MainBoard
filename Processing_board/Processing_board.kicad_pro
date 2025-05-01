@@ -659,7 +659,7 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -671,13 +671,13 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -701,7 +701,7 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -731,7 +731,13 @@
           "group_by": false,
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": true
         },
         {
           "group_by": false,
@@ -816,6 +822,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Panier",
+          "name": "Panier",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "déjà",
+          "name": "déjà",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -823,7 +841,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "${DNP}"
     },
     "connection_grid_size": 50.0,
     "drawing": {
