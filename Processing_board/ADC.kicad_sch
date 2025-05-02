@@ -2387,7 +2387,7 @@
 	)
 	(text "Pull-up\n"
 		(exclude_from_sim no)
-		(at 245.11 57.15 90)
+		(at 264.16 57.15 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2502,7 +2502,7 @@
 		(uuid "2c9cc9c7-783b-4657-9a13-400e08bfac5a")
 	)
 	(junction
-		(at 247.65 69.85)
+		(at 266.7 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2deb0756-0289-4f21-aec2-4576cee412ea")
@@ -2556,10 +2556,16 @@
 		(uuid "4799e6a3-09a1-4671-9d7c-184da147dc51")
 	)
 	(junction
-		(at 256.54 69.85)
+		(at 275.59 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ae1de47-2bdd-4b39-af66-fe0c9c8b65a7")
+	)
+	(junction
+		(at 251.46 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f85430e-10fe-4486-9731-23f2d3d38b67")
 	)
 	(junction
 		(at 64.77 107.95)
@@ -3063,6 +3069,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 58.42) (xy 251.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28cf2ee1-279c-437d-a013-06fe4158b0c0")
+	)
+	(wire
+		(pts
 			(xy 91.44 107.95) (xy 100.33 107.95)
 		)
 		(stroke
@@ -3563,6 +3579,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 66.04) (xy 257.81 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b37183c-e97b-42b1-85b0-8f73a246c054")
+	)
+	(wire
+		(pts
 			(xy 46.99 106.68) (xy 46.99 107.95)
 		)
 		(stroke
@@ -3773,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 60.96) (xy 247.65 69.85)
+			(xy 266.7 60.96) (xy 266.7 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3933,7 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 71.12) (xy 193.04 69.85)
+			(xy 193.04 69.85) (xy 193.04 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3963,7 +3989,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 69.85) (xy 247.65 69.85)
+			(xy 193.04 69.85) (xy 266.7 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4063,7 +4089,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 69.85) (xy 256.54 69.85)
+			(xy 266.7 69.85) (xy 275.59 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4083,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 69.85) (xy 259.08 69.85)
+			(xy 275.59 69.85) (xy 278.13 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4133,7 +4159,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 66.04) (xy 238.76 66.04)
+			(xy 222.25 66.04) (xy 251.46 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4163,7 +4189,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 48.26) (xy 247.65 53.34)
+			(xy 266.7 48.26) (xy 266.7 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4403,6 +4429,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 46.99) (xy 251.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ed1616-d83e-4209-bee9-962174736dde")
+	)
+	(wire
+		(pts
 			(xy 214.63 104.14) (xy 214.63 105.41)
 		)
 		(stroke
@@ -4560,6 +4596,16 @@
 			(justify left bottom)
 		)
 		(uuid "1b886c0b-9e25-4dc3-98de-c283704a621b")
+	)
+	(label "AINP"
+		(at 66.04 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40b82c3a-77b4-4c90-9880-b46b50ce3909")
 	)
 	(label "REFM"
 		(at 113.03 58.42 0)
@@ -4801,7 +4847,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 238.76 66.04 0)
+		(at 257.81 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4823,7 +4869,7 @@
 	)
 	(hierarchical_label "*CS"
 		(shape input)
-		(at 259.08 69.85 0)
+		(at 278.13 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4996,8 +5042,122 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 251.46 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dbb256e-6fe5-4b6c-ba62-d9fed94990f3")
+		(property "Reference" "R22"
+			(at 254 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 254 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 249.682 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/560112110020?qs=mELouGlnn3fA8%252B%2F79%2FueqA%3D%3D"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Wurth Elektronik"
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "560112110020 "
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 251.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "595b2f64-0fcf-4e37-bc8e-1566a0ee2300")
+		)
+		(pin "2"
+			(uuid "725c8250-1958-401e-8ce7-e84b086d9b41")
+		)
+		(instances
+			(project "Processing_board"
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/27085008-964c-403b-b63e-b1efa5b33c14"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 247.65 48.26 0)
+		(at 266.7 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5006,7 +5166,7 @@
 		(fields_autoplaced yes)
 		(uuid "187ee261-da8f-46d4-a953-282be9ff444f")
 		(property "Reference" "#PWR036"
-			(at 247.65 52.07 0)
+			(at 266.7 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5175,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 247.65 43.18 0)
+			(at 266.7 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,7 +5183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 48.26 0)
+			(at 266.7 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 48.26 0)
+			(at 266.7 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 247.65 48.26 0)
+			(at 266.7 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6854,7 +7014,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 256.54 69.85 0)
+		(at 275.59 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6862,7 +7022,7 @@
 		(dnp no)
 		(uuid "6e408c08-28f3-4a8d-880b-5ad3b1390c8a")
 		(property "Reference" "TP8"
-			(at 255.016 64.008 0)
+			(at 274.066 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6871,7 +7031,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 253.746 62.992 0)
+			(at 272.796 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6881,7 +7041,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 261.62 69.85 0)
+			(at 280.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +7050,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 261.62 69.85 0)
+			(at 280.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6899,7 +7059,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 256.54 69.85 0)
+			(at 275.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6908,7 +7068,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 256.54 69.85 0)
+			(at 275.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6916,7 +7076,7 @@
 			)
 		)
 		(property "Panier" ""
-			(at 256.54 69.85 0)
+			(at 275.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6924,7 +7084,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 256.54 69.85 0)
+			(at 275.59 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9517,7 +9677,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 247.65 57.15 0)
+		(at 266.7 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9526,7 +9686,7 @@
 		(fields_autoplaced yes)
 		(uuid "e473abad-99e2-42ad-b8a8-48ccaaebf297")
 		(property "Reference" "R12"
-			(at 250.19 55.8799 0)
+			(at 269.24 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,7 +9695,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 250.19 58.4199 0)
+			(at 269.24 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,7 +9704,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 245.872 57.15 90)
+			(at 264.922 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9713,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 57.15 0)
+			(at 266.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9722,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 247.65 57.15 0)
+			(at 266.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9731,7 @@
 			)
 		)
 		(property "Link" "https://www.mouser.ch/ProductDetail/Wurth-Elektronik/560112110020?qs=mELouGlnn3fA8%252B%2F79%2FueqA%3D%3D"
-			(at 247.65 57.15 0)
+			(at 266.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9740,7 @@
 			)
 		)
 		(property "Panier" "1"
-			(at 247.65 57.15 0)
+			(at 266.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9749,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Wurth Elektronik"
-			(at 247.65 57.15 0)
+			(at 266.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9758,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "560112110020 "
-			(at 247.65 57.15 0)
+			(at 266.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9767,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 247.65 57.15 0)
+			(at 266.7 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,6 +10298,72 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/27085008-964c-403b-b63e-b1efa5b33c14"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 251.46 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff6bede-6b7f-4b92-b2e8-a78d0130c2a2")
+		(property "Reference" "#PWR071"
+			(at 251.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 251.46 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 251.46 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dd197b7-5f48-4859-bb1a-ea4419428b09")
+		)
+		(instances
+			(project "Processing_board"
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/27085008-964c-403b-b63e-b1efa5b33c14"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)

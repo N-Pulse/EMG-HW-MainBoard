@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.15,
-          "width": 0.6
+          "height": 0.55,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.36
         }
       },
       "diff_pair_dimensions": [
@@ -65,11 +65,27 @@
       ],
       "drc_exclusions": [
         [
+          "lib_footprint_mismatch|150000000|100000000|47163136-6feb-4186-9859-3bd9fb4a6369|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|159660000|99917200|dd0e1df0-50de-4716-bb1c-544566920c63|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "malformed_courtyard|91615000|103545000|3e8606d0-a804-42e4-b5a9-e8fd15712ac8|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
           "malformed_courtyard|92115000|103045000|3e8606d0-a804-42e4-b5a9-e8fd15712ac8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|157554761|103954663|49384b9f-8301-4b0b-8b91-c4383bccc688|4e7c4ee3-4f46-49e0-8138-49a0f647d089",
+          ""
+        ],
+        [
+          "silk_overlap|160252381|104000000|4e7c4ee3-4f46-49e0-8138-49a0f647d089|64b63293-6492-44f0-8d8c-51fb24042ab8",
           ""
         ]
       ],
@@ -138,18 +154,18 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.1,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.1,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.15,
         "min_microvia_diameter": 0.3,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.5,
-        "min_text_thickness": 0.05,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
         "min_through_hole_diameter": 0.15,
-        "min_track_width": 0.1,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.0,
@@ -541,7 +557,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "clearance": 0.36,
+        "clearance": 0.15,
         "name": "RF",
         "pcb_color": "rgb(255, 245, 8)",
         "priority": 5,
@@ -898,23 +914,23 @@
     ],
     [
       "27085008-964c-403b-b63e-b1efa5b33c14",
-      "ADC2"
+      "ADC"
     ],
     [
       "df7fc83a-d0a8-479d-91d5-f8243ca1ad84",
-      "Power switching and voltage adaptation2"
+      "Power switching and voltage adaptation"
     ],
     [
       "2fe654b5-c4fa-416f-bffc-9a13739641f2",
-      "RF circuitry & antennas2"
+      "RF circuitry & antennas"
     ],
     [
       "5bac6806-0b59-49c1-a3ef-3d4674d750e6",
-      "STM32_power_supply_scheme2"
+      "STM32_power_supply_scheme"
     ],
     [
       "3ae221e8-61f9-47e6-b291-183a27e600cc",
-      "USB-C circuit2"
+      "USB-C circuit"
     ]
   ],
   "text_variables": {}

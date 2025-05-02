@@ -3089,6 +3089,56 @@
 		)
 		(uuid "fa129289-6794-49d8-b95e-ca13d866e8cc")
 	)
+	(label "5V_Pre_PMOS"
+		(at 101.6 101.6 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "09dd4294-f4a1-49a2-b6d1-690b4267577a")
+	)
+	(label "Skip_LDO5V"
+		(at 60.96 95.25 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "8052822b-008a-4899-a581-8b33576fc486")
+	)
+	(label "Pre_LDO5V"
+		(at 49.53 115.57 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ee8954e-4ed2-4640-85ce-028bb9f86889")
+	)
+	(label "PowerLine"
+		(at 38.1 101.6 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "996b35c4-867f-48be-b701-5bce98c68b14")
+	)
+	(label "Post_LDO5V"
+		(at 87.63 115.57 90)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9adea7fe-87bc-410b-8c41-aba83d2bd4be")
+	)
 	(hierarchical_label "Bat{slash}PowerLine"
 		(shape input)
 		(at 35.56 101.6 180)
@@ -4524,6 +4574,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 81.28 101.6 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4539,14 +4590,14 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 77.724 96.774 0)
+			(at 75.692 97.028 0)
 			(effects
 				(font
 					(size 1.016 1.016)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 81.28 101.6 0)
 			(effects
 				(font
@@ -4623,10 +4674,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a804f000-77ea-4717-bdc2-e20f92e21ddd")
 		(property "Reference" "U5"
-			(at 69.85 100.33 0)
+			(at 69.088 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4684,7 @@
 			)
 		)
 		(property "Value" "LD1117S50TR_SOT223"
-			(at 69.85 102.87 0)
+			(at 68.834 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5224,7 +5274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 55.88 101.6 0)
 			(effects
 				(font

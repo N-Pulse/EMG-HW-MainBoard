@@ -19,4 +19,5 @@
   (lib (name "USB4215_03_A")(type "KiCad")(uri "${KIPRJMOD}/CAD models/USB4215_03_A")(options "")(descr ""))
   (lib (name "LD1117DT18TR")(type "KiCad")(uri "${KIPRJMOD}/CAD models/LD1117DT18TR")(options "")(descr ""))
   (lib (name "PN5260")(type "KiCad")(uri "${KIPRJMOD}/CAD models/PN5260")(options "")(descr ""))
+  (lib (name "PinHeaders")(type "KiCad")(uri "${KIPRJMOD}/CAD models/PinHeaders")(options "")(descr ""))
 )

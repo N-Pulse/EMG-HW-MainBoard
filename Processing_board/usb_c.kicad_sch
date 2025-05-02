@@ -3656,7 +3656,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 101.6) (xy 208.28 101.6)
+			(xy 208.28 101.6) (xy 212.09 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3856,7 +3856,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 106.68) (xy 200.66 106.68)
+			(xy 198.12 105.41) (xy 200.66 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +3866,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 106.68) (xy 198.12 102.87)
+			(xy 198.12 105.41) (xy 198.12 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4066,7 +4066,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 101.6) (xy 208.28 106.68)
+			(xy 208.28 101.6) (xy 208.28 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4174,6 +4174,16 @@
 		)
 		(uuid "ffba8ac8-cdff-47d9-99b3-6a9cc2174e9a")
 	)
+	(label "OSC1"
+		(at 158.75 91.44 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "2c88480a-e46b-4567-b140-a29ffa4bf70c")
+	)
 	(label "USB_VBUS"
 		(at 87.63 62.23 0)
 		(effects
@@ -4183,6 +4193,16 @@
 			(justify left bottom)
 		)
 		(uuid "3a745647-32c5-40bd-90c7-d1c00274d366")
+	)
+	(label "R_LED"
+		(at 209.55 101.6 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "4df2cba9-e763-49b3-9655-4b32e62fa050")
 	)
 	(label "USB_CC1"
 		(at 66.04 68.58 0)
@@ -4214,6 +4234,16 @@
 		)
 		(uuid "94c18597-a5cf-467d-96c1-aeb053a731c5")
 	)
+	(label "OSC2"
+		(at 158.75 93.98 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ce6829c-66a2-4767-b649-88bbdb07cebd")
+	)
 	(label "USB_D+"
 		(at 83.82 81.28 0)
 		(effects
@@ -4223,6 +4253,26 @@
 			(justify left bottom)
 		)
 		(uuid "ac809caa-79e6-44a0-812a-73a5ccfcfebd")
+	)
+	(label "TXLED"
+		(at 194.31 102.87 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7fbbcff-d7f1-44d0-b209-743537462fb7")
+	)
+	(label "RXLED"
+		(at 194.31 100.33 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfd8d692-61a3-4a42-a81d-5812c52fff95")
 	)
 	(label "USB_D-"
 		(at 83.82 78.74 0)
@@ -6529,7 +6579,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 204.47 106.68 0)
+		(at 204.47 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6537,7 +6587,7 @@
 		(dnp no)
 		(uuid "928d66d5-268e-426d-89bb-5f10b54b49ba")
 		(property "Reference" "D6"
-			(at 204.47 110.236 0)
+			(at 204.47 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6595,7 @@
 			)
 		)
 		(property "Value" "IN_S42BT LED"
-			(at 203.454 112.014 0)
+			(at 203.454 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6553,7 +6603,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6562,7 +6612,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6571,7 +6621,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6630,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +6639,7 @@
 			)
 		)
 		(property "Link" "https://www.mouser.ch/ProductDetail/Inolux/IN-S42BT5G?qs=mAH9sUMRCttW6d2tLN392Q%3D%3D"
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6648,7 @@
 			)
 		)
 		(property "Panier" "1"
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6657,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Inolux"
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6616,7 +6666,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "IN-S42BT5G "
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6625,7 +6675,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 204.47 106.68 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

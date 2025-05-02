@@ -4629,6 +4629,10 @@
 		(uuid "125c5b6e-230d-4d4a-844c-647cab3690c1")
 	)
 	(no_connect
+		(at 105.41 128.27)
+		(uuid "316d3e0c-c71b-4b6d-9c06-93f6aea43466")
+	)
+	(no_connect
 		(at 105.41 110.49)
 		(uuid "411ea8aa-a594-4c79-ae8e-cf731ae4eddd")
 	)
@@ -7348,7 +7352,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 			(at 49.53 34.29 0)
 			(effects
 				(font
@@ -7452,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 55.88 186.69 0)
 			(effects
 				(font
@@ -8483,7 +8487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 			(at 153.67 189.23 0)
 			(effects
 				(font
@@ -9101,7 +9105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 52.07 64.77 0)
 			(effects
 				(font
@@ -9483,7 +9487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 22.86 80.01 0)
 			(effects
 				(font
@@ -9944,7 +9948,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 24.13 102.87 0)
 			(effects
 				(font
@@ -10414,7 +10418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -11451,7 +11455,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "27085008-964c-403b-b63e-b1efa5b33c14")
-		(property "Sheetname" "ADC2"
+		(property "Sheetname" "ADC"
 			(at 51.816 72.39 0)
 			(effects
 				(font
@@ -11713,7 +11717,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "2fe654b5-c4fa-416f-bffc-9a13739641f2")
-		(property "Sheetname" "RF circuitry & antennas2"
+		(property "Sheetname" "RF circuitry & antennas"
 			(at 210.82 30.4034 0)
 			(effects
 				(font
@@ -11784,7 +11788,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "3ae221e8-61f9-47e6-b291-183a27e600cc")
-		(property "Sheetname" "USB-C circuit2"
+		(property "Sheetname" "USB-C circuit"
 			(at 32.004 135.128 0)
 			(effects
 				(font
@@ -11856,7 +11860,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5bac6806-0b59-49c1-a3ef-3d4674d750e6")
-		(property "Sheetname" "STM32_power_supply_scheme2"
+		(property "Sheetname" "STM32_power_supply_scheme"
 			(at 182.88 80.5684 0)
 			(effects
 				(font
@@ -12008,7 +12012,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "df7fc83a-d0a8-479d-91d5-f8243ca1ad84")
-		(property "Sheetname" "Power switching and voltage adaptation2"
+		(property "Sheetname" "Power switching and voltage adaptation"
 			(at 85.852 175.006 0)
 			(effects
 				(font
