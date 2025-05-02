@@ -312,6 +312,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -559,6 +745,16 @@
 		)
 		(uuid "b6975ef8-c350-4074-b55e-898fa994694f")
 	)
+	(text "The open solderjumper between VDD11 and VDDRFPA is because I don't know if they should be connected\nor not. p98 of datasheet shows them connected, but on nucleo board mb2130 (which uses STM32WBA65 not 63)\nthey aren't. So I put an open jumper on the layer4 of the PCB just in case"
+		(exclude_from_sim no)
+		(at 227.584 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b92ef1e8-cd45-40aa-bf5c-3aed715c090c")
+	)
 	(text "This is based on the Power supply scheme with SMPS p.98 of datasheet\nNB : pins VDDUSB, VREF+, VDDIO2 VSSA and VSSRF don't exist on my package,\nso I had to connect them alternatively as proposed in the scheme. \n\nAlso I used p.29 to determine the acceptable voltage of VDD (3.3V) and other details\n"
 		(exclude_from_sim no)
 		(at 215.138 38.354 0)
@@ -571,7 +767,7 @@
 	)
 	(text "According to STM32WB55xx datasheet p26 (similar power scheme)\nwe can use  GRM155R60J475KE19 as 4.7uF cap\nand Wurth 74479774222 as 2.2uH inductor"
 		(exclude_from_sim no)
-		(at 185.928 76.2 0)
+		(at 196.088 65.024 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -650,6 +846,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5aef9762-6b91-4418-a4a3-9dde68934690")
+	)
+	(junction
+		(at 116.84 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c4e2d7a-24d3-47bd-9dac-88a528359871")
 	)
 	(junction
 		(at 128.27 77.47)
@@ -1117,6 +1319,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 77.47) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "979949de-314c-4b15-9207-42f4f6d93437")
+	)
+	(wire
+		(pts
 			(xy 116.84 96.52) (xy 116.84 99.06)
 		)
 		(stroke
@@ -1174,6 +1386,16 @@
 			(type default)
 		)
 		(uuid "adf7f740-5ea8-44c5-a13f-3293ad708021")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 128.27 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae986176-5c38-4a72-b96c-8072a8b11599")
 	)
 	(wire
 		(pts
@@ -1287,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 77.47) (xy 128.27 77.47)
+			(xy 104.14 77.47) (xy 116.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 90.17) (xy 116.84 96.52)
+			(xy 116.84 87.63) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2136,6 +2358,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MANUFACTURER" "Samsung Electro-Mechanics"
@@ -2870,6 +3093,75 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/5bac6806-0b59-49c1-a3ef-3d4674d750e6"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 116.84 83.82 270)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a797590a-57ce-43f9-8c27-86d17828f54d")
+		(property "Reference" "JP2"
+			(at 119.38 85.344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 117.602 88.138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 116.84 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "869ba25a-56e7-4f9a-b91f-d179cc1b9a76")
+		)
+		(pin "2"
+			(uuid "ec57a475-933f-4afb-98c6-0cc81346467a")
+		)
+		(instances
+			(project ""
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/5bac6806-0b59-49c1-a3ef-3d4674d750e6"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
