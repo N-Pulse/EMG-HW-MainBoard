@@ -11816,9 +11816,9 @@
 				(justify right)
 			)
 		)
-		(pin "RX" input
+		(pin "MCP2200_RX" input
 			(at 73.66 142.24 0)
-			(uuid "bc73ce8e-adb9-443f-9373-ecbb51f43323")
+			(uuid "2d8b37a8-b333-4717-9260-757fba9e5da1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11826,9 +11826,9 @@
 				(justify right)
 			)
 		)
-		(pin "TX" input
+		(pin "MCP2200_TX" input
 			(at 73.66 144.78 0)
-			(uuid "311b886e-c4f0-4a20-b3c0-d4ea5a5fe025")
+			(uuid "47ae5f85-9871-4a36-9948-5ae070e175dc")
 			(effects
 				(font
 					(size 1.27 1.27)

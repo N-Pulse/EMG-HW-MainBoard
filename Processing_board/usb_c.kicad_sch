@@ -3083,12 +3083,6 @@
 		(uuid "a4891c82-7f1f-4d52-851c-2b3a4e8115a7")
 	)
 	(junction
-		(at 180.34 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e46e39ec-4023-4707-8809-9e2bef72c349")
-	)
-	(junction
 		(at 158.75 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3546,16 +3540,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 54.61) (xy 185.42 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4807a8d4-980e-46ee-8ccc-3ba79122a0b0")
-	)
-	(wire
-		(pts
 			(xy 119.38 71.12) (xy 119.38 72.39)
 		)
 		(stroke
@@ -3563,16 +3547,6 @@
 			(type default)
 		)
 		(uuid "494963db-5e9b-41cd-a576-8b7583ae6d8d")
-	)
-	(wire
-		(pts
-			(xy 180.34 49.53) (xy 185.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a3c52b5-f91b-46cf-b508-3e615cfa40d1")
 	)
 	(wire
 		(pts
@@ -4284,7 +4258,7 @@
 		)
 		(uuid "f2fbc0a3-20dd-459c-878c-ac2125f13102")
 	)
-	(hierarchical_label "TX"
+	(hierarchical_label "MCP2200_TX"
 		(shape input)
 		(at 240.03 71.12 0)
 		(effects
@@ -4295,7 +4269,7 @@
 		)
 		(uuid "0003ed5a-577c-4163-bae7-14b0ef05e8ca")
 	)
-	(hierarchical_label "RX"
+	(hierarchical_label "MCP2200_RX"
 		(shape input)
 		(at 240.03 73.66 0)
 		(effects
@@ -5816,71 +5790,6 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/3ae221e8-61f9-47e6-b291-183a27e600cc"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "597224e8-afc8-45cb-a3a1-4ded70ae5224")
-		(property "Reference" "#PWR068"
-			(at 185.42 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 188.976 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af911d61-dbf0-43b4-9ca4-19ac7b234626")
-		)
-		(instances
-			(project "Processing_board"
-				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/3ae221e8-61f9-47e6-b291-183a27e600cc"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7412,120 +7321,6 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/3ae221e8-61f9-47e6-b291-183a27e600cc"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 185.42 52.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c885d288-732f-492a-b82f-f788fa5315dd")
-		(property "Reference" "C56"
-			(at 187.96 50.7935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "470nF"
-			(at 187.96 53.3335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 185.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 185.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 185.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/KEMET/C0402C473K8RACAUTO7411?qs=sSYV1F9c5cEF%2FA7Et64KMA%3D%3D"
-			(at 185.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Panier" "1"
-			(at 185.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "KEMET"
-			(at 185.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "C0402C473K8RACAUTO7411"
-			(at 185.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "déjà" ""
-			(at 185.42 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7c1fb17c-a995-4073-9871-274c0d851e43")
-		)
-		(pin "1"
-			(uuid "ca761f8b-930c-4015-8e8c-d99a4a517e9b")
-		)
-		(instances
-			(project "Processing_board"
-				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/3ae221e8-61f9-47e6-b291-183a27e600cc"
-					(reference "C56")
 					(unit 1)
 				)
 			)
