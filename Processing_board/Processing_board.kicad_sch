@@ -4098,7 +4098,7 @@
 		)
 		(uuid "0e84214a-d898-4d91-8d38-ff199390bd13")
 	)
-	(text "SWD/JTAG"
+	(text "SWD"
 		(exclude_from_sim no)
 		(at 42.418 46.228 0)
 		(effects
@@ -7204,7 +7204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 207.01 69.85 0)
 			(effects
 				(font
@@ -7222,7 +7222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 207.01 69.85 0)
 			(effects
 				(font
@@ -9292,7 +9292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 157.48 41.91 0)
 			(effects
 				(font
@@ -9310,7 +9310,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 157.48 41.91 0)
 			(effects
 				(font
@@ -12084,6 +12084,48 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 219.71 107.95)
+		(size 44.45 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 86 116 255 1.0000)
+		)
+		(uuid "fedc464e-5c18-4ab8-9ed5-1636f7e10547")
+		(property "Sheetname" "BLOCK_DIAGRAM"
+			(at 219.71 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLOCK_DIAGRAM.kicad_sch"
+			(at 219.71 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Processing_board"
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
+					(page "7")
 				)
 			)
 		)

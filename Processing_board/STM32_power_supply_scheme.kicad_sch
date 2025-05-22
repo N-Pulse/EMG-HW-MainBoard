@@ -1840,7 +1840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 138.43 101.6 0)
 			(effects
 				(font
@@ -1858,7 +1858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 138.43 101.6 0)
 			(effects
 				(font
@@ -2175,7 +2175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -2193,7 +2193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 123.19 39.37 0)
 			(effects
 				(font
@@ -2352,7 +2352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 114.3 39.37 0)
 			(effects
 				(font
@@ -2370,7 +2370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 114.3 39.37 0)
 			(effects
 				(font
@@ -2463,7 +2463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/YAGEO/CC0402KRX5R6BB475?qs=tS%2FAHvPQ%2F57yk%252BaeAkyovA%3D%3D"
+		(property "Link" "https://www.digikey.ch/en/products/detail/murata-electronics/GRM155C61E475ME15D/16821133"
 			(at 128.27 82.55 0)
 			(effects
 				(font
@@ -2481,7 +2481,7 @@
 				(hide yes)
 			)
 		)
-		(property "MANUFACTURER" "YAGEO"
+		(property "MANUFACTURER" "Murata Electronics"
 			(at 128.27 82.55 0)
 			(effects
 				(font
@@ -2490,7 +2490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0402KRX5R6BB475"
+		(property "Manufacturer_Part_Number" "GRM155C61E475ME15D"
 			(at 128.27 82.55 0)
 			(effects
 				(font
@@ -2640,7 +2640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 104.14 101.6 0)
 			(effects
 				(font
@@ -2658,7 +2658,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 104.14 101.6 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -2769,7 +2769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 97.79 39.37 0)
 			(effects
 				(font
@@ -3219,7 +3219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -3237,7 +3237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 116.84 101.6 0)
 			(effects
 				(font
@@ -3723,7 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 116.84 101.6 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
+		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
 			(at 105.41 39.37 0)
 			(effects
 				(font
@@ -3834,7 +3834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC"
+		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
 			(at 105.41 39.37 0)
 			(effects
 				(font

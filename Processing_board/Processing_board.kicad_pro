@@ -63,24 +63,7 @@
           "width": 0.2
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|150000000|100000000|47163136-6feb-4186-9859-3bd9fb4a6369|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|159660000|99917200|dd0e1df0-50de-4716-bb1c-544566920c63|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|91615000|103545000|3e8606d0-a804-42e4-b5a9-e8fd15712ac8|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|92115000|103045000|3e8606d0-a804-42e4-b5a9-e8fd15712ac8|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -159,7 +142,7 @@
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.3,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -249,7 +232,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.4,
+          "diameter": 0.45,
           "drill": 0.2
         },
         {
@@ -624,7 +607,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "$BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -915,6 +898,10 @@
     [
       "2fe654b5-c4fa-416f-bffc-9a13739641f2",
       "RF circuitry & antennas"
+    ],
+    [
+      "fedc464e-5c18-4ab8-9ed5-1636f7e10547",
+      "BLOCK_DIAGRAM"
     ],
     [
       "5bac6806-0b59-49c1-a3ef-3d4674d750e6",
