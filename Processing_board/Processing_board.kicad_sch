@@ -4088,16 +4088,6 @@
 		)
 		(uuid "06caf820-63a8-4b51-b0e3-d31eb13188ce")
 	)
-	(text "RX\n"
-		(exclude_from_sim no)
-		(at 48.26 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0e84214a-d898-4d91-8d38-ff199390bd13")
-	)
 	(text "SWD"
 		(exclude_from_sim no)
 		(at 42.418 46.228 0)
@@ -4117,16 +4107,6 @@
 			)
 		)
 		(uuid "13990c91-a550-4736-9a78-ffd04bc9c749")
-	)
-	(text "USART3 RX"
-		(exclude_from_sim no)
-		(at 122.174 67.564 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1458522c-05e9-4389-9f9d-4a4124d1a8de")
 	)
 	(text "SPI3_MISO"
 		(exclude_from_sim no)
@@ -4228,16 +4208,6 @@
 		)
 		(uuid "3de62d16-367b-4ad4-abdc-01973012f2df")
 	)
-	(text "TX\n"
-		(exclude_from_sim no)
-		(at 48.514 65.278 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4ace97ad-1f58-417a-83f9-1f0644131291")
-	)
 	(text "Push and maintain button BEFORE board power-up\n(or reset) to enter flashing mode "
 		(exclude_from_sim no)
 		(at 167.386 32.004 0)
@@ -4318,16 +4288,6 @@
 		)
 		(uuid "82408f75-3f9c-42fb-ab4b-71d6f22e9b39")
 	)
-	(text "USART3_TX"
-		(exclude_from_sim no)
-		(at 122.682 72.644 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9318e94e-8905-47e0-9f24-4bb2dc07d172")
-	)
 	(text "TX\n"
 		(exclude_from_sim no)
 		(at 48.26 54.356 0)
@@ -4358,7 +4318,7 @@
 		)
 		(uuid "9c5f0fa7-f7d8-4775-b64b-0cb4919a81c2")
 	)
-	(text "USART_3\n"
+	(text "GPIO_Output\n"
 		(exclude_from_sim no)
 		(at 41.148 67.31 0)
 		(effects
@@ -4450,8 +4410,8 @@
 	)
 	(text_box ""
 		(exclude_from_sim no)
-		(at 36.83 58.42 0)
-		(size 21.59 10.16)
+		(at 34.29 58.42 0)
+		(size 24.13 10.16)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -6358,7 +6318,7 @@
 		)
 		(uuid "278f54a1-820d-4241-9a52-fc8cecd7e97f")
 	)
-	(label "USART3_TX"
+	(label "GPIO_OUT"
 		(at 78.74 64.77 0)
 		(effects
 			(font
@@ -6418,7 +6378,7 @@
 		)
 		(uuid "3bc80678-1796-4d0e-89e9-8c72b733ea65")
 	)
-	(label "USART3_TX_CONN"
+	(label "GPIO_OUT_CONN"
 		(at 59.69 64.77 0)
 		(effects
 			(font
@@ -6438,7 +6398,7 @@
 		)
 		(uuid "43194630-bc7f-4c6b-a132-16faeda69655")
 	)
-	(label "USART3_RX"
+	(label "GPIO_OUT"
 		(at 101.6 67.31 0)
 		(effects
 			(font
@@ -6648,7 +6608,7 @@
 		)
 		(uuid "a945a8df-8def-4355-90b3-678f11e9236f")
 	)
-	(label "USART3_RX_CONN"
+	(label "GPIO_IN_CONN"
 		(at 59.69 67.31 0)
 		(effects
 			(font
@@ -6708,7 +6668,7 @@
 		)
 		(uuid "d154a164-728b-442b-bcc8-a251fbd406c3")
 	)
-	(label "USART3_RX"
+	(label "GPIO_IN"
 		(at 78.74 67.31 0)
 		(effects
 			(font
@@ -6748,7 +6708,7 @@
 		)
 		(uuid "f0b327d3-cc4a-47b7-8a53-44a63a1a64b0")
 	)
-	(label "USART3_TX"
+	(label "GPIO_IN"
 		(at 101.6 72.39 0)
 		(effects
 			(font

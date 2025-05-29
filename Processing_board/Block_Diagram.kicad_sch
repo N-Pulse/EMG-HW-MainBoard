@@ -37,11 +37,11 @@
 		(stroke
 			(width 0)
 			(type solid)
-			(color 230 89 209 0.5)
+			(color 145 222 230 0.5)
 		)
 		(fill
 			(type color)
-			(color 230 89 209 0.5019607843)
+			(color 145 222 230 0.5)
 		)
 		(uuid 11589ab3-5a6c-4094-9ef7-7bb2bd079a1a)
 	)
@@ -526,6 +526,18 @@
 		)
 		(uuid "370043d5-59d6-459f-a122-e4b8edcdd72e")
 	)
+	(text "PB7\n"
+		(exclude_from_sim no)
+		(at 184.15 65.024 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "374f0896-628d-4848-8ef2-6fc95f9a9d30")
+	)
 	(text "3V3"
 		(exclude_from_sim no)
 		(at 170.688 139.446 0)
@@ -577,7 +589,7 @@
 		)
 		(uuid "415dcb8d-934c-4d1f-af4a-27b3680ea0fb")
 	)
-	(text "TX RX 3V3 GND"
+	(text "PA5 PA7 3V3 GND"
 		(exclude_from_sim no)
 		(at 304.292 105.156 0)
 		(effects
@@ -1254,28 +1266,6 @@
 		)
 		(uuid "97c00ad2-eeeb-4f4e-a8f2-dacb7a33d92f")
 	)
-	(text_box "USART"
-		(exclude_from_sim no)
-		(at 227.33 100.33 0)
-		(size 22.86 8.89)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type color)
-			(color 230 89 209 1)
-		)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.4763)
-				(color 255 255 255 1)
-			)
-		)
-		(uuid "a4faf73e-41be-42c9-91bf-a8d491198bcf")
-	)
 	(text_box "NRST"
 		(exclude_from_sim no)
 		(at 194.31 101.6 0)
@@ -1297,6 +1287,28 @@
 			)
 		)
 		(uuid "ab78fe6d-7285-4b2a-9bb1-d9ac720de9f7")
+	)
+	(text_box "GPIO"
+		(exclude_from_sim no)
+		(at 227.33 100.33 0)
+		(size 22.86 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 145 222 230 1)
+		)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.4763)
+				(color 255 255 255 1)
+			)
+		)
+		(uuid "b2450674-213e-40f7-9457-fd297650bfdb")
 	)
 	(text_box "JUMPER"
 		(exclude_from_sim no)
@@ -1320,6 +1332,26 @@
 			)
 		)
 		(uuid "b72f2208-97eb-41e4-9544-6c93811111bd")
+	)
+	(text_box "Review :\nActually USART3 does not exist ! So the 2nd 4x connector is only for GPIOS I guess"
+		(exclude_from_sim no)
+		(at 173.99 209.55 0)
+		(size 91.44 43.18)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bca2de58-3fa5-42ee-a6b2-a849e20d6a1c")
 	)
 	(polyline
 		(pts
