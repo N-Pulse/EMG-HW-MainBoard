@@ -777,7 +777,7 @@
 	)
 	(text "For some reason, VSS is actually named \nEPAD (exposed pad) on the chip pinout"
 		(exclude_from_sim no)
-		(at 169.164 111.252 0)
+		(at 176.784 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -806,7 +806,7 @@
 		(uuid "66437bc2-4247-47d3-be39-5a02e3a6fe47")
 	)
 	(junction
-		(at 127 106.68)
+		(at 127 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c876f20-45ac-40ee-9b81-76e4318a2299")
@@ -878,6 +878,12 @@
 		(uuid "7a41921b-e0e9-4659-898e-dbf6b6f4f301")
 	)
 	(junction
+		(at 138.43 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "811ec671-5e36-400c-a0ad-a38b84338449")
+	)
+	(junction
 		(at 123.19 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -914,13 +920,13 @@
 		(uuid "c53b2706-1d5a-4ab0-875d-a7868929fa41")
 	)
 	(junction
-		(at 132.08 106.68)
+		(at 132.08 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfbee225-2571-4eec-aa25-4dd1374dbe07")
 	)
 	(junction
-		(at 138.43 106.68)
+		(at 138.43 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddf5828b-2884-4cbc-9da8-6ebd7d609201")
@@ -949,16 +955,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 138.43 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13949a94-6f80-44b2-93dd-982478a1c34b")
-	)
-	(wire
-		(pts
 			(xy 73.66 27.94) (xy 83.82 27.94)
 		)
 		(stroke
@@ -979,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 127 106.68)
+			(xy 127 110.49) (xy 127 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1006,6 +1002,16 @@
 			(type default)
 		)
 		(uuid "20ba0652-9ca9-48e8-a42e-8ff785b2926c")
+	)
+	(wire
+		(pts
+			(xy 138.43 101.6) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22339e31-9f1b-4d02-b28b-3ff77b27618e")
 	)
 	(wire
 		(pts
@@ -1049,7 +1055,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 96.52) (xy 104.14 99.06)
+			(xy 104.14 96.52) (xy 104.14 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1065,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 127 99.06)
+			(xy 127 102.87) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1085,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 104.14) (xy 116.84 106.68)
+			(xy 116.84 110.49) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1195,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 132.08 106.68)
+			(xy 127 113.03) (xy 132.08 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1245,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 138.43 106.68)
+			(xy 132.08 113.03) (xy 138.43 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1265,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 106.68) (xy 146.05 106.68)
+			(xy 138.43 113.03) (xy 146.05 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 104.14) (xy 104.14 107.95)
+			(xy 104.14 110.49) (xy 104.14 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1309,7 +1315,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 106.68) (xy 116.84 106.68)
+			(xy 127 113.03) (xy 116.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1329,13 +1335,33 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 96.52) (xy 116.84 99.06)
+			(xy 116.84 96.52) (xy 116.84 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "990673d0-0f3d-4aeb-a88a-7dbdce927bd7")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 138.43 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a79ddc-ebd2-4cd3-afb7-8e6658440257")
+	)
+	(wire
+		(pts
+			(xy 138.43 102.87) (xy 138.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a18599d-ffa2-4982-b74f-d15e1521526b")
 	)
 	(wire
 		(pts
@@ -1439,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 106.68) (xy 132.08 107.95)
+			(xy 132.08 113.03) (xy 132.08 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1609,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 104.14) (xy 138.43 106.68)
+			(xy 138.43 110.49) (xy 138.43 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1695,7 @@
 	)
 	(hierarchical_label "VSS"
 		(shape input)
-		(at 146.05 106.68 0)
+		(at 146.05 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1702,7 +1728,7 @@
 	)
 	(hierarchical_label "VDDRF"
 		(shape input)
-		(at 138.43 96.52 180)
+		(at 137.16 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1746,7 +1772,7 @@
 	)
 	(hierarchical_label "VDDHPA"
 		(shape input)
-		(at 127 96.52 180)
+		(at 127 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1790,7 +1816,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 138.43 101.6 180)
+		(at 138.43 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1798,7 +1824,7 @@
 		(dnp no)
 		(uuid "0378dd62-7f83-44c9-b5f5-439123862b10")
 		(property "Reference" "C51"
-			(at 143.51 100.838 0)
+			(at 143.51 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1832,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 143.51 103.124 0)
+			(at 143.51 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1840,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 138.43 101.6 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 101.6 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1858,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 138.43 101.6 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1867,7 @@
 			)
 		)
 		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
-			(at 138.43 101.6 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1850,7 +1876,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung Electro-Mechanics"
-			(at 138.43 101.6 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1859,7 +1885,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
-			(at 138.43 101.6 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,7 +1894,7 @@
 			)
 		)
 		(property "Panier" "1"
-			(at 138.43 101.6 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,7 +1903,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 138.43 101.6 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +2550,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 107.95 0)
+		(at 104.14 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2533,7 +2559,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fbb05e7-42ab-4461-9b1a-0154387732f4")
 		(property "Reference" "#PWR056"
-			(at 104.14 114.3 0)
+			(at 104.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2542,7 +2568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 113.03 0)
+			(at 104.14 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 107.95 0)
+			(at 104.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 107.95 0)
+			(at 104.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 107.95 0)
+			(at 104.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2616,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 101.6 180)
+		(at 104.14 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2598,7 +2624,7 @@
 		(dnp no)
 		(uuid "3ff1da77-d13f-4abf-a716-ee2e1e2be9df")
 		(property "Reference" "C42"
-			(at 109.22 100.838 0)
+			(at 109.22 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2632,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 109.22 103.124 0)
+			(at 109.22 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2640,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 104.14 101.6 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2649,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 101.6 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2632,7 +2658,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 104.14 101.6 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2667,7 @@
 			)
 		)
 		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
-			(at 104.14 101.6 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2650,7 +2676,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung Electro-Mechanics"
-			(at 104.14 101.6 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2685,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
-			(at 104.14 101.6 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2694,7 @@
 			)
 		)
 		(property "Panier" "1"
-			(at 104.14 101.6 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2677,7 +2703,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 104.14 101.6 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +3015,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 127 101.6 180)
+		(at 127 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2997,7 +3023,7 @@
 		(dnp no)
 		(uuid "94763196-4582-4e1f-97e6-e5deff76b176")
 		(property "Reference" "C48"
-			(at 131.318 100.838 0)
+			(at 131.318 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3031,7 @@
 			)
 		)
 		(property "Value" "470nF"
-			(at 132.08 102.87 0)
+			(at 132.08 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,7 +3039,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 127 101.6 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,7 +3048,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 101.6 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3031,7 +3057,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 127 101.6 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3066,7 @@
 			)
 		)
 		(property "Link" "https://www.mouser.ch/ProductDetail/KEMET/C0402C473K8RACAUTO7411?qs=sSYV1F9c5cEF%2FA7Et64KMA%3D%3D"
-			(at 127 101.6 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3049,7 +3075,7 @@
 			)
 		)
 		(property "Panier" "1"
-			(at 127 101.6 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3058,7 +3084,7 @@
 			)
 		)
 		(property "MANUFACTURER" "KEMET"
-			(at 127 101.6 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3093,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0402C473K8RACAUTO7411"
-			(at 127 101.6 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3076,7 +3102,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 127 101.6 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3162,6 +3188,72 @@
 			(project ""
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/5bac6806-0b59-49c1-a3ef-3d4674d750e6"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 138.43 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7eab404-4425-4ece-be42-d147bee80117")
+		(property "Reference" "#PWR068"
+			(at 138.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 138.43 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d9f9334-bd72-467b-9f02-89968b2fe5b5")
+		)
+		(instances
+			(project "Processing_board"
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/5bac6806-0b59-49c1-a3ef-3d4674d750e6"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3655,7 +3747,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 116.84 101.6 180)
+		(at 116.84 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3663,7 +3755,7 @@
 		(dnp no)
 		(uuid "d5f4414f-144c-4da6-ac1b-d696ac77aeaf")
 		(property "Reference" "C46"
-			(at 121.92 100.838 0)
+			(at 121.412 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3763,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 121.92 103.124 0)
+			(at 121.412 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3771,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 116.84 101.6 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3780,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 101.6 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,7 +3789,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 116.84 101.6 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3706,7 +3798,7 @@
 			)
 		)
 		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
-			(at 116.84 101.6 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3807,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Samsung Electro-Mechanics"
-			(at 116.84 101.6 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3816,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
-			(at 116.84 101.6 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3733,7 +3825,7 @@
 			)
 		)
 		(property "Panier" "1"
-			(at 116.84 101.6 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3742,7 +3834,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 116.84 101.6 0)
+			(at 116.84 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3877,7 +3969,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 107.95 0)
+		(at 132.08 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3886,7 +3978,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2f2c1fc-60b4-4ca3-86ac-a0578d8064ee")
 		(property "Reference" "#PWR059"
-			(at 132.08 114.3 0)
+			(at 132.08 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3895,7 +3987,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 113.03 0)
+			(at 132.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3903,7 +3995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 107.95 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +4004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 107.95 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +4013,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 107.95 0)
+			(at 132.08 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)

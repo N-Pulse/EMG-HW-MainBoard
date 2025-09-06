@@ -5100,16 +5100,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 182.88 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423d4f5f-4dd3-44fc-a9e8-fb597ca2bc14")
-	)
-	(wire
-		(pts
 			(xy 176.53 140.97) (xy 182.88 140.97)
 		)
 		(stroke
@@ -5900,6 +5890,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 105.41) (xy 182.88 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b61277c5-622b-4208-8305-b8f4a5f94f0e")
+	)
+	(wire
+		(pts
 			(xy 273.05 69.85) (xy 273.05 72.39)
 		)
 		(stroke
@@ -6457,16 +6457,6 @@
 			(justify right bottom)
 		)
 		(uuid "51c250e6-610e-4191-b700-34171a01e782")
-	)
-	(label "VDDRF"
-		(at 180.34 105.41 180)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify right bottom)
-		)
-		(uuid "52370481-c37c-4d2c-a556-4b972a847ed3")
 	)
 	(label "LED"
 		(at 97.79 115.57 0)

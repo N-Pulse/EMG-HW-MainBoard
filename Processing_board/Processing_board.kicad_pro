@@ -588,6 +588,10 @@
       {
         "netclass": "Default",
         "pattern": "/SMPS*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/+3.3V"
       }
     ]
   },
