@@ -1,0 +1,7 @@
+This file documents changes made to the board posterior to what is described in the Semester project report
+
+(September 6-8)
+commits c299b64830... and 3e60935701... corrected two errors described in the report (p22,
+table 2) i.e. lack of 3V3 to VDDRF pin and incorrect wiring of both buttons
+commit 
+commit 9a5cc0a548 corrected the fact our exact model of STM32WBA63CIUX does NOT have an USART3 (mistake reading of the datasheet). The pins PA5 and PA7 are instead configured as GPIO, the silkscreen markings changed and they were rewired accordingly.(NB1 : the name of USART3 was already removed in the schematic before end of semester project, but the PCB footprint was not modified) (NB2 : R6 pullup resistor probably not useful anyore, should be removed) 
