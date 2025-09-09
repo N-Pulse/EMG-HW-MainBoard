@@ -1,0 +1,9 @@
+NB idk why a .py got inserted in the name, it's really not python
+
+ELEA_Blink : simple blink for ELEA board. All GPIO, UART, SPI etc are already configured (hopefully correctly) in the .ioc file. IMPORTANT : the pre-generated line  PeriphCommonClock_Config() of main.c was commented out because it produced an error that I didn't have time to understand and fix. I think the peripheral clock only concerns some radio stuff, so it should not affect other functions, but who knows ?
+
+
+ELEA_UART : simple UART communication between STM32 and PC on UART2 using interrupts and callbacks (baud rate 115200). Asks for a key (R,G,B), echoes it back and completes it (R + "ed"). On the Nucleo board this was coded to activate some LEDs, but annoying to set up the pins for that on ELEA. Same remark about PeriphCommonClock_Config() as above.
+
+
+ELEA_Basic_SPI : it's literally just sending the message "11110001" to the ADC over SPI3. It doesn't mean anything, I just wanted an easily recognizable signal to check on the oscilloscope. Same remark about PeriphCommonClock_Config() as above.
