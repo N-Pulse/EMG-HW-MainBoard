@@ -8,6 +8,7 @@
 		(title "EMG signal processing board")
 		(company "N-Pulse")
 		(comment 1 "Julien Thévenoz")
+		(comment 2 "Adapted by Marta Vasconcelos")
 	)
 	(lib_symbols
 		(symbol "CX2016DB32000D0FLJCC:CX2016DB32000D0FLJCC"
@@ -3716,6 +3717,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V8"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4170,7 +4296,7 @@
 	)
 	(text "EMG boards power\n\n"
 		(exclude_from_sim no)
-		(at 155.702 180.086 0)
+		(at 165.862 180.086 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,7 +4673,7 @@
 		(uuid "45e5fd05-b1bb-4d7c-8aa8-36c460eee763")
 	)
 	(junction
-		(at 147.32 189.23)
+		(at 157.48 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4de3895e-03a1-4e5f-abe0-159b12dc6c9c")
@@ -4593,6 +4719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8919ba4-7a48-4f7c-a0ea-91464b86cf3a")
+	)
+	(junction
+		(at 134.62 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e68461b9-b3e2-4d9e-a3b1-6858965527d4")
 	)
 	(no_connect
 		(at 105.41 64.77)
@@ -4760,7 +4892,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 186.69) (xy 148.59 186.69)
+			(xy 115.57 186.69) (xy 134.62 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4890,7 +5022,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 191.77) (xy 147.32 189.23)
+			(xy 157.48 191.77) (xy 157.48 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4990,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 189.23) (xy 148.59 189.23)
+			(xy 157.48 189.23) (xy 158.75 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5190,7 +5322,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 182.88) (xy 134.62 182.88)
+			(xy 115.57 182.88) (xy 129.54 182.88)
 		)
 		(stroke
 			(width 0)
@@ -5500,7 +5632,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 179.07) (xy 129.54 179.07)
+			(xy 115.57 179.07) (xy 124.46 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5550,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 189.23) (xy 147.32 189.23)
+			(xy 153.67 189.23) (xy 157.48 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5590,7 +5722,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 184.15) (xy 92.71 184.15)
+			(xy 60.96 184.15) (xy 87.63 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5620,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 180.34) (xy 92.71 180.34)
+			(xy 76.2 180.34) (xy 87.63 180.34)
 		)
 		(stroke
 			(width 0)
@@ -5727,6 +5859,16 @@
 			(type default)
 		)
 		(uuid "a15e0f86-9996-4e78-8fa9-be8eea0e6f39")
+	)
+	(wire
+		(pts
+			(xy 134.62 186.69) (xy 158.75 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d01e5c-23a5-4a51-9ef8-ca008bcdd3e3")
 	)
 	(wire
 		(pts
@@ -6559,7 +6701,7 @@
 		(uuid "8ac2c95a-c051-46e3-8e81-51d568b2c1fb")
 	)
 	(label "EMG_modules_1.8V"
-		(at 129.54 186.69 0)
+		(at 139.7 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6700,7 +6842,7 @@
 	)
 	(symbol
 		(lib_id "PN5260:5260")
-		(at 143.51 194.31 270)
+		(at 153.67 194.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6708,7 +6850,7 @@
 		(dnp no)
 		(uuid "01a9fafa-fa4e-418f-a315-21a7d5b07e0f")
 		(property "Reference" "TP1"
-			(at 135.382 194.31 90)
+			(at 145.542 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6717,7 +6859,7 @@
 			)
 		)
 		(property "Value" "PN5260"
-			(at 135.382 196.85 90)
+			(at 145.542 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6726,7 +6868,7 @@
 			)
 		)
 		(property "Footprint" "PN5260:PN5260"
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +6878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +6887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6754,7 +6896,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6764,7 +6906,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +6916,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "5260"
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6784,7 +6926,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57mm"
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6794,7 +6936,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Keystone"
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +6946,7 @@
 			)
 		)
 		(property "Link" "https://www.mouser.ch/ProductDetail/Keystone-Electronics/5260?qs=W%2FMpXkg%252BdQ5ZyD03UfNp6A%3D%3D"
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +6955,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "5260"
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +6964,7 @@
 			)
 		)
 		(property "Panier" "1"
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +6973,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 143.51 194.31 0)
+			(at 153.67 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,6 +7667,71 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 134.62 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43d24276-7b3e-4e4f-ad63-8a0bd75f4656")
+		(property "Reference" "#PWR022"
+			(at 134.62 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 134.366 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35a8b216-e34c-4150-9bf6-3b2c52184bba")
+		)
+		(instances
+			(project ""
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8341,7 +8548,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 134.62 182.88 0)
+		(at 129.54 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8349,7 +8556,7 @@
 		(dnp no)
 		(uuid "748020b0-fc2d-4363-9848-ac907cfab73a")
 		(property "Reference" "#PWR011"
-			(at 134.62 186.69 0)
+			(at 129.54 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +8565,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 134.874 179.07 0)
+			(at 129.794 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 182.88 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +8582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 182.88 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +8591,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 134.62 182.88 0)
+			(at 129.54 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8613,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 153.67 189.23 180)
+		(at 163.83 189.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8414,7 +8621,7 @@
 		(dnp no)
 		(uuid "7c98f877-8827-41d8-8940-566d5abdec0b")
 		(property "Reference" "J7"
-			(at 154.432 181.102 0)
+			(at 164.592 181.102 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,7 +8629,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 154.94 183.134 0)
+			(at 165.1 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,7 +8637,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 153.67 189.23 0)
+			(at 163.83 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +8646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 189.23 0)
+			(at 163.83 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8655,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 153.67 189.23 0)
+			(at 163.83 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +8664,7 @@
 			)
 		)
 		(property "Link" ""
-			(at 153.67 189.23 0)
+			(at 163.83 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8672,7 @@
 			)
 		)
 		(property "Panier" ""
-			(at 153.67 189.23 0)
+			(at 163.83 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,7 +8680,7 @@
 			)
 		)
 		(property "déjà" ""
-			(at 153.67 189.23 0)
+			(at 163.83 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +9330,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 191.77 0)
+		(at 157.48 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9132,7 +9339,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fc9495c-ee4d-4f51-88e1-8833104fd5a0")
 		(property "Reference" "#PWR013"
-			(at 147.32 198.12 0)
+			(at 157.48 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +9348,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 196.85 0)
+			(at 157.48 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9149,7 +9356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 191.77 0)
+			(at 157.48 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,7 +9365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 191.77 0)
+			(at 157.48 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +9374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 191.77 0)
+			(at 157.48 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,7 +10842,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 129.54 179.07 0)
+		(at 124.46 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10643,7 +10850,7 @@
 		(dnp no)
 		(uuid "d80c96ae-d94e-4513-82a1-a41f13246558")
 		(property "Reference" "#PWR010"
-			(at 129.54 182.88 0)
+			(at 124.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10859,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 175.006 0)
+			(at 124.46 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10660,7 +10867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 179.07 0)
+			(at 124.46 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10669,7 +10876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 179.07 0)
+			(at 124.46 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10678,7 +10885,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 129.54 179.07 0)
+			(at 124.46 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11945,7 +12152,7 @@
 		)
 	)
 	(sheet
-		(at 92.71 176.53)
+		(at 87.63 176.53)
 		(size 27.94 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11960,7 +12167,7 @@
 		)
 		(uuid "df7fc83a-d0a8-479d-91d5-f8243ca1ad84")
 		(property "Sheetname" "Power switching and voltage adaptation"
-			(at 85.852 175.006 0)
+			(at 80.772 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11969,7 +12176,7 @@
 			)
 		)
 		(property "Sheetfile" "voltage_adaptation.kicad_sch"
-			(at 92.71 189.8146 0)
+			(at 87.63 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +12185,7 @@
 			)
 		)
 		(pin "1.8V" input
-			(at 120.65 186.69 0)
+			(at 115.57 186.69 0)
 			(uuid "db8df2f7-578e-44ef-91d3-c522f080cc62")
 			(effects
 				(font
@@ -11988,7 +12195,7 @@
 			)
 		)
 		(pin "3.3V" input
-			(at 120.65 182.88 0)
+			(at 115.57 182.88 0)
 			(uuid "3c6e4810-3878-40db-b902-eb329062df6f")
 			(effects
 				(font
@@ -11998,7 +12205,7 @@
 			)
 		)
 		(pin "VBUS" input
-			(at 92.71 180.34 180)
+			(at 87.63 180.34 180)
 			(uuid "d513095f-d04f-422e-b6e7-f3bd795de796")
 			(effects
 				(font
@@ -12008,7 +12215,7 @@
 			)
 		)
 		(pin "5V" input
-			(at 120.65 179.07 0)
+			(at 115.57 179.07 0)
 			(uuid "b6829f9f-aa66-4a79-bd14-245c201d7414")
 			(effects
 				(font
@@ -12018,7 +12225,7 @@
 			)
 		)
 		(pin "Bat{slash}PowerLine" input
-			(at 92.71 184.15 180)
+			(at 87.63 184.15 180)
 			(uuid "010c8f99-44a3-46f7-a719-6ca916f07493")
 			(effects
 				(font
