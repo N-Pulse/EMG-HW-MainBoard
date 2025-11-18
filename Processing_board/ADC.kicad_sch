@@ -7112,7 +7112,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 89.408 99.822 0)
 			(effects
 				(font
@@ -7181,7 +7181,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 127.508 193.802 0)
 			(effects
 				(font
@@ -7450,7 +7450,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 168.656 90)
 			(effects
 				(font
@@ -7584,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 173.736 90)
 			(effects
 				(font
@@ -8245,7 +8245,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 74.168 193.802 0)
 			(effects
 				(font
@@ -8381,7 +8381,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 119.888 193.802 0)
 			(effects
 				(font
@@ -8516,7 +8516,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 163.576 90)
 			(effects
 				(font
@@ -8849,7 +8849,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 178.816 90)
 			(effects
 				(font
@@ -8984,7 +8984,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 104.648 193.802 0)
 			(effects
 				(font
@@ -9053,7 +9053,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 119.888 99.822 0)
 			(effects
 				(font
@@ -9390,7 +9390,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 104.648 99.822 0)
 			(effects
 				(font
@@ -9593,7 +9593,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 74.168 99.822 0)
 			(effects
 				(font
@@ -9861,7 +9861,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 81.788 99.822 0)
 			(effects
 				(font
@@ -9996,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 158.496 90)
 			(effects
 				(font
@@ -10064,7 +10064,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 97.028 193.802 0)
 			(effects
 				(font
@@ -10133,7 +10133,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 89.408 193.802 0)
 			(effects
 				(font
@@ -10402,7 +10402,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 112.268 99.822 0)
 			(effects
 				(font
@@ -10471,7 +10471,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 81.788 193.802 0)
 			(effects
 				(font
@@ -10607,7 +10607,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 112.268 193.802 0)
 			(effects
 				(font
@@ -10675,7 +10675,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 153.416 90)
 			(effects
 				(font
@@ -10875,7 +10875,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 188.976 90)
 			(effects
 				(font
@@ -10942,7 +10942,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 183.896 90)
 			(effects
 				(font
@@ -11009,7 +11009,7 @@
 				)
 			)
 		)
-		(property "Value" "47-100pΩ"
+		(property "Value" "47kΩ"
 			(at 58.42 196.596 90)
 			(effects
 				(font
@@ -11601,7 +11601,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 127.508 99.822 0)
 			(effects
 				(font
@@ -11670,7 +11670,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100-470pF"
+		(property "Value" "10nF"
 			(at 97.028 99.822 0)
 			(effects
 				(font

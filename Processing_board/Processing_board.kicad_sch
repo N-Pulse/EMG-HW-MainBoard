@@ -2200,6 +2200,142 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PN5260:5260"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at -2.5444 2.5415 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "5260"
+				(at -2.55 -5.0866 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "5260:KEYSTONE_5260"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SNAPEDA_PN" "5260"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "4.57mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Keystone"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "5260_0_0"
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "STM32WBA63CI:STM32WBA63CIU6"
 			(pin_names
 				(offset 0.254)
@@ -3581,6 +3717,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+1V8"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V8"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V8\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -4033,6 +4294,16 @@
 		)
 		(uuid "2ab9e0ef-818a-445d-8ee2-c5772f371152")
 	)
+	(text "EMG boards power\n\n"
+		(exclude_from_sim no)
+		(at 165.862 180.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "321c3bef-e1aa-474d-816f-fd3dfd7dd621")
+	)
 	(text "SPI3_SCK"
 		(exclude_from_sim no)
 		(at 122.936 59.69 0)
@@ -4412,6 +4683,12 @@
 		(uuid "45e5fd05-b1bb-4d7c-8aa8-36c460eee763")
 	)
 	(junction
+		(at 157.48 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de3895e-03a1-4e5f-abe0-159b12dc6c9c")
+	)
+	(junction
 		(at 166.37 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4452,6 +4729,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8919ba4-7a48-4f7c-a0ea-91464b86cf3a")
+	)
+	(junction
+		(at 134.62 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e68461b9-b3e2-4d9e-a3b1-6858965527d4")
 	)
 	(no_connect
 		(at 105.41 64.77)
@@ -4607,6 +4890,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 186.69) (xy 134.62 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aba2c69-7991-4794-b82c-082a4c17502b")
+	)
+	(wire
+		(pts
 			(xy 74.93 87.63) (xy 78.74 87.63)
 		)
 		(stroke
@@ -4757,6 +5050,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 191.77) (xy 157.48 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8d4641-fec1-4292-845f-6d4578a9dcc9")
+	)
+	(wire
+		(pts
 			(xy 86.36 77.47) (xy 86.36 120.65)
 		)
 		(stroke
@@ -4844,6 +5147,16 @@
 			(type default)
 		)
 		(uuid "29d83079-ef94-4782-a5c0-7443a1379980")
+	)
+	(wire
+		(pts
+			(xy 157.48 189.23) (xy 158.75 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29e1e879-5c73-41ca-a819-83430a4e3d53")
 	)
 	(wire
 		(pts
@@ -5407,6 +5720,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 189.23) (xy 157.48 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dec66bf-87d1-4cd9-9c64-ff7427b32c09")
+	)
+	(wire
+		(pts
 			(xy 273.05 60.96) (xy 273.05 63.5)
 		)
 		(stroke
@@ -5574,6 +5897,16 @@
 			(type default)
 		)
 		(uuid "a15e0f86-9996-4e78-8fa9-be8eea0e6f39")
+	)
+	(wire
+		(pts
+			(xy 134.62 186.69) (xy 158.75 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d01e5c-23a5-4a51-9ef8-ca008bcdd3e3")
 	)
 	(wire
 		(pts
@@ -6425,6 +6758,16 @@
 		)
 		(uuid "8ac2c95a-c051-46e3-8e81-51d568b2c1fb")
 	)
+	(label "EMG_modules_1.8V"
+		(at 139.7 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e76bd76-3380-49bd-92dc-0f84291fb692")
+	)
 	(label "SPI_CS1"
 		(at 78.74 85.09 0)
 		(effects
@@ -6594,6 +6937,158 @@
 			(justify left bottom)
 		)
 		(uuid "fe2abf0d-f3e9-4e61-8ade-d605d9c85ac1")
+	)
+	(symbol
+		(lib_id "PN5260:5260")
+		(at 153.67 194.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01a9fafa-fa4e-418f-a315-21a7d5b07e0f")
+		(property "Reference" "TP1"
+			(at 145.542 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PN5260"
+			(at 145.542 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PN5260:PN5260"
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "5260"
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "4.57mm"
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Keystone"
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mouser.ch/ProductDetail/Keystone-Electronics/5260?qs=W%2FMpXkg%252BdQ5ZyD03UfNp6A%3D%3D"
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5260"
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Panier" "1"
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "déjà" ""
+			(at 153.67 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08f31da4-77aa-4d9c-b48a-8bfcd3aa7c8d")
+		)
+		(instances
+			(project "Processing_board"
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -7270,6 +7765,71 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
+		(at 134.62 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43d24276-7b3e-4e4f-ad63-8a0bd75f4656")
+		(property "Reference" "#PWR022"
+			(at 134.62 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 134.366 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 134.62 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35a8b216-e34c-4150-9bf6-3b2c52184bba")
+		)
+		(instances
+			(project ""
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -8150,6 +8710,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 163.83 189.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c98f877-8827-41d8-8940-566d5abdec0b")
+		(property "Reference" "J7"
+			(at 164.592 181.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 165.1 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Panier" ""
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "déjà" ""
+			(at 163.83 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ab5dfaf-b8d1-4f71-8631-458db16dc40a")
+		)
+		(pin "2"
+			(uuid "b5bb19f9-182d-416c-80c6-97e79d385d23")
+		)
+		(instances
+			(project "Processing_board"
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 95.25 147.32 90)
 		(unit 1)
@@ -8770,6 +9421,72 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fc9495c-ee4d-4f51-88e1-8833104fd5a0")
+		(property "Reference" "#PWR013"
+			(at 157.48 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01029f87-d3e8-478f-9bfb-7e341498d95c")
+		)
+		(instances
+			(project "Processing_board"
+				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11693,6 +12410,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "1.8V" input
+			(at 115.57 186.69 0)
+			(uuid "db8df2f7-578e-44ef-91d3-c522f080cc62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "3.3V" input
