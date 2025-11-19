@@ -319,122 +319,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_Symbol_Library_Npulse:LD1117DT18TR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U5"
-				(at 0 -20.574 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LD1117DT18TR"
-				(at -0.762 -23.114 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LD1117DT18TR:TO228P972X240-3N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LD1117DT18TR_1_1"
-				(rectangle
-					(start -7.62 -1.27)
-					(end 6.35 -13.97)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "ADJ/GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 8.89 -11.43 180)
-					(length 2.54)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DMP3056LSS-13:DMP3056LSS-13"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2183,16 +2067,6 @@
 		)
 		(uuid "7f2e6703-2ead-4205-a9ee-e9cb7d5abb03")
 	)
-	(text "LDO->1.8V"
-		(exclude_from_sim no)
-		(at 255.016 86.106 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "99c13b03-65d1-4320-a0cd-bc776580abc8")
-	)
 	(text "This line is USB-C power line \n(VBUS, 5 V and 0.5 A)\n"
 		(exclude_from_sim no)
 		(at 27.432 66.294 0)
@@ -2262,12 +2136,6 @@
 		(uuid "2d03860e-f889-467e-b24f-b1d1c2cb39fd")
 	)
 	(junction
-		(at 240.03 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ea559bd-708f-429a-9fe5-a978aabb5e49")
-	)
-	(junction
 		(at 53.34 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2298,12 +2166,6 @@
 		(uuid "66a81ec7-82b3-46da-aea8-8e15d966a648")
 	)
 	(junction
-		(at 246.38 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "797c8e82-ac64-419a-a308-580101ae1ebf")
-	)
-	(junction
 		(at 87.63 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2314,12 +2176,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9078cb14-5c58-41b1-95bd-f42e337a3a60")
-	)
-	(junction
-		(at 267.97 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a42f1951-e63a-4cc9-bb3c-eba271ec17b2")
 	)
 	(junction
 		(at 69.85 125.73)
@@ -2411,26 +2267,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 101.6) (xy 240.03 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d2a361a-82f2-4f14-8999-fe98c78c0f53")
-	)
-	(wire
-		(pts
-			(xy 267.97 105.41) (xy 274.32 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed6ad31-d99c-493c-9b6e-46aa5e8c1975")
-	)
-	(wire
-		(pts
 			(xy 49.53 104.14) (xy 50.8 104.14)
 		)
 		(stroke
@@ -2481,26 +2317,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 105.41) (xy 267.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47acb3f1-0231-45f1-a35d-cc85134776ed")
-	)
-	(wire
-		(pts
-			(xy 240.03 101.6) (xy 246.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d14dd1-1aa6-4990-bf70-bab82a48103b")
-	)
-	(wire
-		(pts
 			(xy 219.71 101.6) (xy 219.71 127)
 		)
 		(stroke
@@ -2518,26 +2334,6 @@
 			(type default)
 		)
 		(uuid "4cce386b-9332-4849-a948-51d0cd211947")
-	)
-	(wire
-		(pts
-			(xy 240.03 129.54) (xy 246.38 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f9f17af-d920-4d2e-a95e-ab2ded9870e1")
-	)
-	(wire
-		(pts
-			(xy 265.43 105.41) (xy 267.97 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f9e994-8ff6-4ef3-8d93-8e73be40d113")
 	)
 	(wire
 		(pts
@@ -2568,16 +2364,6 @@
 			(type default)
 		)
 		(uuid "5d27c273-489d-451f-a44d-fb5317956455")
-	)
-	(wire
-		(pts
-			(xy 219.71 101.6) (xy 240.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d88d5f4-1384-4542-b331-ca41a091f672")
 	)
 	(polyline
 		(pts
@@ -2618,16 +2404,6 @@
 			(type default)
 		)
 		(uuid "68dc7756-f950-4ad2-b929-5b61e29aa283")
-	)
-	(wire
-		(pts
-			(xy 246.38 129.54) (xy 246.38 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bc58aaa-f8d4-43ff-ad6b-d151a5bcbf73")
 	)
 	(wire
 		(pts
@@ -2701,16 +2477,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 109.22) (xy 246.38 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85709281-684c-423f-ac34-ccec6198c6ab")
-	)
-	(wire
-		(pts
 			(xy 204.47 123.19) (xy 204.47 109.22)
 		)
 		(stroke
@@ -2758,26 +2524,6 @@
 			(type default)
 		)
 		(uuid "98790a98-c2e5-48bc-9bf5-f92e8c2f80a9")
-	)
-	(wire
-		(pts
-			(xy 240.03 123.19) (xy 240.03 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b83c16c-9987-4ad5-8ba3-49188cd2f3c8")
-	)
-	(wire
-		(pts
-			(xy 246.38 129.54) (xy 267.97 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ecdff97-e43b-4b79-9024-34a9c3291fc0")
 	)
 	(wire
 		(pts
@@ -2971,16 +2717,6 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 129.54) (xy 267.97 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc1b0a72-f995-4889-ae1b-14b2d9f94a54")
-	)
-	(wire
-		(pts
 			(xy 49.53 104.14) (xy 49.53 116.84)
 		)
 		(stroke
@@ -3160,17 +2896,6 @@
 			(justify right)
 		)
 		(uuid "3f1ce2fd-ad09-4c75-8abd-6bfdcca9edd3")
-	)
-	(hierarchical_label "1.8V"
-		(shape input)
-		(at 274.32 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8d99479-e99b-434f-807c-66d1f121dda1")
 	)
 	(hierarchical_label "5V"
 		(shape input)
@@ -4393,119 +4118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 240.03 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88e166f7-a56e-45e8-b68d-f6e598b51779")
-		(property "Reference" "C32"
-			(at 232.156 117.348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 230.886 119.888 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 240.9952 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://eu.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL05B104KP5VPNC?qs=gqBM4hNBiUXTv%252BkFO9q2pQ%3D%3D"
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Samsung Electro-Mechanics"
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL05B104KP5VPNC "
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Panier" "1"
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "déjà" ""
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d855da27-6e04-478e-a81a-92368f9d896c")
-		)
-		(pin "2"
-			(uuid "f8ad4924-2546-4519-8642-eb0ff4af318f")
-		)
-		(instances
-			(project "Processing_board"
-				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/df7fc83a-d0a8-479d-91d5-f8243ca1ad84"
-					(reference "C32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 204.47 125.73 0)
 		(unit 1)
@@ -4841,72 +4453,6 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/df7fc83a-d0a8-479d-91d5-f8243ca1ad84"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 246.38 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1e08af1-d7ca-4176-8c95-953aaf0ae39e")
-		(property "Reference" "#PWR041"
-			(at 246.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.38 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "089bbdcd-2896-46b8-83ea-ce6875e0b52c")
-		)
-		(instances
-			(project "Processing_board"
-				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/df7fc83a-d0a8-479d-91d5-f8243ca1ad84"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -5455,119 +5001,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 267.97 119.38 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7910db7-9cfc-4af2-b968-0576c8211591")
-		(property "Reference" "C33"
-			(at 274.574 119.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 273.812 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 267.0048 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 267.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/Murata-Electronics/GRM155R61A106ME11D?qs=xZ%2FP%252Ba9zWqZMJSi57Q8OyA%3D%3D"
-			(at 267.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Panier" "1"
-			(at 267.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata Electronics"
-			(at 267.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM155R61A106ME11D"
-			(at 267.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "déjà" ""
-			(at 267.97 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00f79791-9f0e-48a2-9632-3b17b78a0d28")
-		)
-		(pin "2"
-			(uuid "7b1bd02c-4aec-4789-8ac6-03c751d3ce42")
-		)
-		(instances
-			(project "Processing_board"
-				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/df7fc83a-d0a8-479d-91d5-f8243ca1ad84"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "D_Schottky_1")
 		(lib_id "Device:D_Schottky")
 		(at 160.02 86.36 90)
@@ -5720,120 +5153,6 @@
 			(project "Processing_board"
 				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/df7fc83a-d0a8-479d-91d5-f8243ca1ad84"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_Symbol_Library_Npulse:LD1117DT18TR")
-		(at 255.27 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f18b2ae1-c37e-487a-a8ee-09296a64ac82")
-		(property "Reference" "U7"
-			(at 255.27 92.456 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LD1117DT18TR"
-			(at 256.032 89.916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LD1117DT18TR:TO228P972X240-3N"
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://www.mouser.ch/ProductDetail/STMicroelectronics/LD1117DT18TR?qs=rkyzKKi%2FrgiTGfkwrcFd%252BA%3D%3D"
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "STMicroelectronics"
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LD1117DT18TR"
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Panier" ""
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "déjà" "1"
-			(at 255.27 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d04fbad4-a539-48e1-b5b1-2feabf07e260")
-		)
-		(pin "1"
-			(uuid "f1ad90d6-22f6-403d-8859-0ef73d84fd66")
-		)
-		(pin "4"
-			(uuid "923a5501-a793-4dff-b494-a189381ca03f")
-		)
-		(instances
-			(project "Processing_board"
-				(path "/b48cfd4a-6c36-4270-b2b4-45cb26e35477/df7fc83a-d0a8-479d-91d5-f8243ca1ad84"
-					(reference "U7")
 					(unit 1)
 				)
 			)

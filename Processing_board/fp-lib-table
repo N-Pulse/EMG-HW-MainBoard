@@ -20,4 +20,5 @@
   (lib (name "LD1117DT18TR")(type "KiCad")(uri "${KIPRJMOD}/CAD models/LD1117DT18TR")(options "")(descr ""))
   (lib (name "PN5260")(type "KiCad")(uri "${KIPRJMOD}/CAD models/PN5260")(options "")(descr ""))
   (lib (name "PinHeaders")(type "KiCad")(uri "${KIPRJMOD}/CAD models/PinHeaders")(options "")(descr ""))
+  (lib (name "ADS1299_footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints_ADS1299.pretty")(options "")(descr ""))
 )
