@@ -4462,12 +4462,12 @@
 		(uuid "411ea8aa-a594-4c79-ae8e-cf731ae4eddd")
 	)
 	(no_connect
-		(at 105.41 138.43)
-		(uuid "502be3bb-a54f-47d1-8310-bbd2d49c8c5e")
-	)
-	(no_connect
 		(at 105.41 135.89)
 		(uuid "5ff1c4c0-e825-4246-84df-3e55d2191f4d")
+	)
+	(no_connect
+		(at 105.41 128.27)
+		(uuid "7948f456-b912-4c28-a287-1ad00f1bbd68")
 	)
 	(no_connect
 		(at 105.41 92.71)
@@ -4787,6 +4787,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 138.43) (xy 105.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259467ca-d7b2-480c-9fa7-40b5330818ae")
+	)
+	(wire
+		(pts
 			(xy 82.55 60.96) (xy 82.55 62.23)
 		)
 		(stroke
@@ -5054,16 +5064,6 @@
 			(type default)
 		)
 		(uuid "5382bc23-dfa1-43d8-99d0-d55a44581b3d")
-	)
-	(wire
-		(pts
-			(xy 101.6 128.27) (xy 105.41 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53ea26ba-5ed8-4f6a-96dc-7bfe1ca89902")
 	)
 	(wire
 		(pts
@@ -6365,16 +6365,6 @@
 		)
 		(uuid "68658935-d31d-4f6d-a9bb-ab2cabd56c0d")
 	)
-	(label "SPI_CS2"
-		(at 101.6 128.27 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left bottom)
-		)
-		(uuid "6de52ef1-04a9-40b1-b3b7-8bc4f09d8a98")
-	)
 	(label "SPI3_MOSI"
 		(at 76.2 118.11 0)
 		(effects
@@ -6434,6 +6424,16 @@
 			(justify left bottom)
 		)
 		(uuid "9272dfa5-47c5-4f34-babb-3400e2011884")
+	)
+	(label "SPI_CS2"
+		(at 101.6 138.43 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "9366ba61-642a-404e-b881-83ff02d8454f")
 	)
 	(label "SWD_NRST"
 		(at 195.58 72.39 0)
