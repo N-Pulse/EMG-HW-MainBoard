@@ -7413,7 +7413,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 89.408 99.822 0)
 			(effects
 				(font
@@ -7482,7 +7482,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 127.508 193.802 0)
 			(effects
 				(font
@@ -8616,7 +8616,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 74.168 193.802 0)
 			(effects
 				(font
@@ -8752,7 +8752,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 119.888 193.802 0)
 			(effects
 				(font
@@ -9355,7 +9355,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 104.648 193.802 0)
 			(effects
 				(font
@@ -9424,7 +9424,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 119.888 99.822 0)
 			(effects
 				(font
@@ -9761,7 +9761,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 104.648 99.822 0)
 			(effects
 				(font
@@ -10032,7 +10032,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 74.168 99.822 0)
 			(effects
 				(font
@@ -10300,7 +10300,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 81.788 99.822 0)
 			(effects
 				(font
@@ -10503,7 +10503,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 97.028 193.802 0)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 89.408 193.802 0)
 			(effects
 				(font
@@ -10841,7 +10841,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 112.268 99.822 0)
 			(effects
 				(font
@@ -10910,7 +10910,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 81.788 193.802 0)
 			(effects
 				(font
@@ -11046,7 +11046,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 112.268 193.802 0)
 			(effects
 				(font
@@ -12110,7 +12110,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 127.508 99.822 0)
 			(effects
 				(font
@@ -12179,7 +12179,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "20nF"
 			(at 97.028 99.822 0)
 			(effects
 				(font
