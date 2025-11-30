@@ -6590,7 +6590,7 @@
 		)
 		(uuid "4903b68b-739f-48ff-a164-feb7a32aab76")
 	)
-	(label "IN8P"
+	(label "IN16P"
 		(at 40.64 154.94 180)
 		(effects
 			(font
@@ -6600,7 +6600,7 @@
 		)
 		(uuid "4a9fa7fa-29e7-4299-b261-efc8014134a6")
 	)
-	(label "IN4P"
+	(label "IN12P"
 		(at 40.64 175.26 180)
 		(effects
 			(font
@@ -6610,7 +6610,7 @@
 		)
 		(uuid "52b2721a-1465-45a3-aed4-bbdfc8323d2a")
 	)
-	(label "IN2P"
+	(label "IN10P"
 		(at 40.64 185.42 180)
 		(effects
 			(font
@@ -6620,7 +6620,7 @@
 		)
 		(uuid "63181749-8143-4a2a-b395-8ab06fdb3486")
 	)
-	(label "IN7P"
+	(label "IN15P"
 		(at 40.64 160.02 180)
 		(effects
 			(font
@@ -6640,7 +6640,7 @@
 		)
 		(uuid "7b45e0a7-77b0-4e6e-a16d-23fde065d9a6")
 	)
-	(label "IN3P"
+	(label "IN11P"
 		(at 40.64 180.34 180)
 		(effects
 			(font
@@ -6650,7 +6650,7 @@
 		)
 		(uuid "7dc8757e-500e-407a-b298-bc98c8b108c9")
 	)
-	(label "IN6P"
+	(label "IN14P"
 		(at 40.64 165.1 180)
 		(effects
 			(font
@@ -6690,7 +6690,7 @@
 		)
 		(uuid "cf3dc71b-cf62-4017-9cc4-5f3c774d79c8")
 	)
-	(label "IN5P"
+	(label "IN13P"
 		(at 40.64 170.18 180)
 		(effects
 			(font
@@ -6730,7 +6730,7 @@
 		)
 		(uuid "ecd69ff6-8027-4e59-869d-f08c2b4232e3")
 	)
-	(label "IN1P"
+	(label "IN9P"
 		(at 40.64 190.5 180)
 		(effects
 			(font

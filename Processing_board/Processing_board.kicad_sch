@@ -4153,6 +4153,16 @@
 		)
 		(uuid "82408f75-3f9c-42fb-ab4b-71d6f22e9b39")
 	)
+	(text "ACD_DRDY\n"
+		(exclude_from_sim no)
+		(at 122.936 62.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a89421f-efeb-4b81-8f0e-83e88b4cfd5d")
+	)
 	(text "TX\n"
 		(exclude_from_sim no)
 		(at 48.26 54.356 0)
