@@ -9117,7 +9117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 139.7 41.91 0)
 			(effects
 				(font
@@ -9157,7 +9157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 325.12 245.11 0)
 			(effects
 				(font
@@ -9183,7 +9183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\" , digital ground"
 			(at 325.12 241.3 0)
 			(effects
 				(font
@@ -9724,7 +9724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 303.53 48.26 0)
 			(effects
 				(font
@@ -11212,7 +11212,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 339.09 49.53 0)
 			(effects
 				(font

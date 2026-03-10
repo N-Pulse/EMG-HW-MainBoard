@@ -11735,7 +11735,7 @@
 				(justify right)
 			)
 		)
-		(pin "Bat{slash}PowerLine" input
+		(pin "Bat_5.3V" input
 			(at 87.63 184.15 180)
 			(uuid "010c8f99-44a3-46f7-a719-6ca916f07493")
 			(effects
