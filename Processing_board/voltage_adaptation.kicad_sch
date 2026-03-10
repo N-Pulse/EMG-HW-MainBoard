@@ -3008,7 +3008,7 @@
 		)
 		(uuid "fea76722-46ae-4287-9caa-9d236a4afad7")
 	)
-	(label "STABLE 5V"
+	(label "+5V"
 		(at 128.27 81.28 0)
 		(effects
 			(font
